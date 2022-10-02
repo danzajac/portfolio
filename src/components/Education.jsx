@@ -1,13 +1,13 @@
 import styles, { layout } from "../style";
 import { educationList } from "../constants";
-import Lottie from "react-lottie";
+import Lottie from "react-lottie-player";
 import animationData from "../lotties/quiz-mode-teal-dark.json";
 import { motion } from "framer-motion";
 
 // lottie config
 const defaultOptions = {
   loop: true,
-  autoplay: true,
+  play: true,
   animationData: animationData,
   rendererSettings: {
     preserveAspectRatio: "xMidYMid slice",
@@ -42,12 +42,14 @@ const FeatureCard = ({
       <p className="font-poppins font-normal text-dimWhite text-[14px] leading-[30px] mb-1">
         {duration}
       </p>
-      <p className="font-poppins font-normal text-dimWhite text-[16px] leading-[30px] mb-1">
-        - {content1}
+      <p className="font-poppins font-normal text-dimWhite text-[16px] leading-[30px] mb-1">   
+      ● {content1}
       </p>
-      <p className="font-poppins font-normal text-dimWhite text-[16px] leading-[30px] mb-1">
-        - {content2}
-      </p>
+      {content2 && (
+        <p className="font-poppins font-normal text-dimWhite text-[16px] leading-[30px] mb-1">     
+      ● {content2}
+        </p>
+      )}
     </div>
   </div>
 );
@@ -60,12 +62,12 @@ const Education = () => {
       </h1>
       <motion.div
         className={layout.sectionReverse}
-        whileInView={{ x: [-100, 0], opacity: [0, 1] }}
+        whileInView={{ x: [-60, 0], opacity: [0, 1] }}
         transition={{ duration: 1 }}
       >
         <div className={layout.sectionImgReverse}>
           <div className="w-[80%] h-[80%] relative z-[5]">
-            <Lottie options={defaultOptions} />
+            <Lottie {...defaultOptions} />
           </div>
 
           {/* gradient start */}

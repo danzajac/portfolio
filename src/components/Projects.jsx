@@ -8,8 +8,10 @@ const Project = (props) => {
   return (
     <motion.div
       className="px-12 py-8 transition-colors duration-300 transform border rounded-xl hover:border-transparent group dark:border-gray-700 dark:hover:border-transparent feature-card"
-      whileInView={{ y: [-40, 0], opacity: [0, 1] }}
-      transition={{ duration: 1 }}
+      initial={{ y: -30, opacity: 0 }}
+      whileInView={{ y: 0, opacity: 1 }}
+      viewport={{ once: false, amount: 0.5 }}
+      transition={{ duration: 0.75, delay: 0.1 }}
     >
       <div className="flex flex-col sm:-mx-4 sm:flex-row">
         <img
@@ -25,20 +27,20 @@ const Project = (props) => {
           <p className="font-poppins font-normal text-dimWhite mt-3">
             Tech Stack
           </p>
-          <p className="mt-2 text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300">
+          <div className="mt-2 text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300">
             <div className="flex sm:flex-row">
               {props.stack.map((tech, index) => (
-                <span
+                <div
                   key={tech.id}
                   index={index}
-                  className="text-dimWhite mr-5 text-[20px] hover:text-teal-200"
-                  title="less go"
+                  className="text-dimWhite mr-5 text-[20px] hover:text-teal-200 tooltip"
                 >
                   {React.createElement(tech.icon)}
-                </span>
+                  <span className="tooltiptext">{tech.name}</span>
+                </div>
               ))}
             </div>
-          </p>
+          </div>
         </div>
       </div>
 
@@ -52,7 +54,7 @@ const Project = (props) => {
             <AiFillGithub
               size="2rem"
               className="text-white mr-1 hover:text-teal-200"
-            ></AiFillGithub>
+            />
           </a>
         ) : (
           ""

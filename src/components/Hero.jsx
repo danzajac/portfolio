@@ -1,13 +1,14 @@
 import styles from "../style";
 import LetsConnect from "./LetsConnect";
-import Lottie from "react-lottie";
+import Lottie from "react-lottie-player";
 import animationData from "../lotties/person-coding.json";
-import { motion } from "framer-motion";
+import { aboutMe } from "../constants";
+
 
 // lottie config
 const defaultOptions = {
   loop: true,
-  autoplay: true,
+  play: true,
   animationData: animationData,
   rendererSettings: {
     preserveAspectRatio: "xMidYMid slice",
@@ -16,11 +17,9 @@ const defaultOptions = {
 
 const Hero = () => {
   return (
-    <motion.section
+    <section
       id="home"
       className={`flex md:flex-row flex-col ${styles.paddingY}`}
-      whileInView={{ y: [-70, 0], opacity: [0, 1] }}
-      transition={{ duration: 1 }}
     >
       <div
         className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}
@@ -28,7 +27,7 @@ const Hero = () => {
         {/* Hero text */}
         <div className="flex flex-row justify-between items-center w-full text-white">
           <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[80px] leading-[80px]">
-            Hi, there!
+            Hi there!
             <br className="sm:block hidden" /> I am
           </h1>
 
@@ -38,11 +37,10 @@ const Hero = () => {
         </div>
 
         <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[80px] leading-[80px] w-full">
-          <span className="text-gradient">Parth Mittal </span>
+          <span className="text-gradient">{aboutMe.name}</span>
         </h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          Student web-developer from India who is either busy improving his
-          craft or pondering over the next big idea.
+          {aboutMe.intro}
         </p>
       </div>
 
@@ -50,7 +48,7 @@ const Hero = () => {
         className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}
       >
         <div className="relative z-index-[5] h-[90%] w-[85%]">
-          <Lottie options={defaultOptions} />
+          <Lottie {...defaultOptions} />
         </div>
         <div className="absolute z-[1] w-[50%] h-[50%] rounded-full bottom-40 white__gradient"></div>
       </div>
@@ -58,7 +56,7 @@ const Hero = () => {
       <div className={`ss:hidden ${styles.flexCenter}`}>
         <LetsConnect />
       </div>
-    </motion.section>
+    </section>
   );
 };
 
