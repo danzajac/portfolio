@@ -1024,30 +1024,20 @@ export const socialMedia = [
   {
     id: "social-media-3",
     icon: AiFillMail,
-    link: "mailto:mittalparth22@gmail.com",
-  },
-  {
-    id: "social-media-4",
-    icon: AiOutlineTwitter,
-    link: "https://www.twitter.com/mittalparth_",
-  },
-  {
-    id: "social-media-5",
-    icon: AiFillInstagram,
-    link: "https://www.instagram.com/mittalparth_",
+    link: "mailto:danzajac10@gmail.com",
   },
 ];
 
 // Your professional summary
 export const aboutMe = {
-    name: "Parth Mittal",
-    githubUsername: 'mittal-parth',
+    name: "Daniel Zajac",
+    githubUsername: 'danzajac',
     tagLine: "MTS-1 @Oracle | ex-SDE Intern @Averlon | ex-Tech Lead @IRIS,NITK | ETHIndia'22 Winner | NITK'24",
-    intro: "Software Developer from India who is either busy improving his craft or pondering over the next big idea."
+    intro: "Software Developer from the US, always refining his craft or envisioning the future of tech."
 }
 
 // The maximum number of PRs to be displayed in the Open Source Contributions section.
 export const itemsToFetch = 20;
 
 // Add names of GitHub repos you'd like to display open source contributions from in the 'org/repo' format. 
-export const includedRepos = ['publiclab/plots2', 'zulip/zulip', 'paritytech/polkadot-sdk'];
+export const includedRepos = ['repo 1', 'repo 2', 'repo 3'];

@@ -101,58 +101,62 @@ const OpenSource = () => {
 
   return (
     <section id="openSource">
-      <h1 className="flex-1 font-poppins font-semibold ss:text-[55px] text-[45px] text-white ss:leading-[80px] leading-[80px]">
-        Open Source Contributions
-      </h1>
+      {!!contributions.length && (
+        <>
+          <h1 className="flex-1 font-poppins font-semibold ss:text-[55px] text-[45px] text-white ss:leading-[80px] leading-[80px]">
+            Open Source Contributions
+          </h1>
 
-      <div className="container px-2 py-5 mx-auto mb-8">
-        <div className="flex items-center justify-center">
-          {!contributions.error && (
-            <div className="flex flex-wrap items-center p-1 border border-blue-gradient dark:border-teal-400 rounded-xl">
-              {filters.map(
-                (item, index) => (
-                  <button
-                    key={index}
-                    onClick={() => handleContributionFilter(item)}
-                    className={`px-2 py-2 text-sm font-medium text-white md:py-3 rounded-xl md:px-6 capitalize transition-colors duration-300 focus:outline-none hover:bg-teal-400 font-poppins ${
-                      activeFilter === item ? "bg-teal-400" : ""
-                    }`}
-                  >
-                    {item}
-                  </button>
-                )
+          <div className="container px-2 py-5 mx-auto mb-8">
+            <div className="flex items-center justify-center">
+              {!contributions.error && (
+                <div className="flex flex-wrap items-center p-1 border border-blue-gradient dark:border-teal-400 rounded-xl">
+                  {filters.map(
+                    (item, index) => (
+                      <button
+                        key={index}
+                        onClick={() => handleContributionFilter(item)}
+                        className={`px-2 py-2 text-sm font-medium text-white md:py-3 rounded-xl md:px-6 capitalize transition-colors duration-300 focus:outline-none hover:bg-teal-400 font-poppins ${
+                          activeFilter === item ? "bg-teal-400" : ""
+                        }`}
+                      >
+                        {item}
+                      </button>
+                    )
+                  )}
+                </div>
               )}
             </div>
-          )}
-        </div>
-        {contributions.error ? (
-          <div className="flex flex-col sm:-mx-4 sm:flex-row">
-            <AiFillApi
-              size="2rem"
-              className="text-white mr-1 hover:text-teal-200"
-            />
+            {contributions.error ? (
+              <div className="flex flex-col sm:-mx-4 sm:flex-row">
+                <AiFillApi
+                  size="2rem"
+                  className="text-white mr-1 hover:text-teal-200"
+                />
 
-            <div className="mt-4 sm:mx-4 sm:mt-0">
-              <h1 className="text-xl font-semibold font-poppins text-gray-700 md:text-2xl group-hover:text-white text-gradient">
-                Something went wrong loading this section.
-              </h1>
-              <p className="font-poppins font-normal text-dimWhite mt-3">
-                Please wait a few seconds and try reloading the page.
-              </p>
-            </div>
+                <div className="mt-4 sm:mx-4 sm:mt-0">
+                  <h1 className="text-xl font-semibold font-poppins text-gray-700 md:text-2xl group-hover:text-white text-gradient">
+                    Something went wrong loading this section.
+                  </h1>
+                  <p className="font-poppins font-normal text-dimWhite mt-3">
+                    Please wait a few seconds and try reloading the page.
+                  </p>
+                </div>
+              </div>
+            ) : (
+              <div className="grid grid-cols-1 justify-center gap-8 mt-8 md:mt-16 md:grid-cols-3 sm:grid-cols-2">
+                {filterContribution.map((contribution, index) => (
+                  <Contribution
+                    key={contribution.id}
+                    index={index}
+                    {...contribution}
+                  />
+                ))}
+              </div>
+            )}
           </div>
-        ) : (
-          <div className="grid grid-cols-1 justify-center gap-8 mt-8 md:mt-16 md:grid-cols-3 sm:grid-cols-2">
-            {filterContribution.map((contribution, index) => (
-              <Contribution
-                key={contribution.id}
-                index={index}
-                {...contribution}
-              />
-            ))}
-          </div>
-        )}
-      </div>
+        </>
+      )}
     </section>
   );
 };
