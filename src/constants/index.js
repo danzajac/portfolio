@@ -90,7 +90,7 @@ import {
 
 import { DiCss3, DiJava, DiMsqlServer, DiRuby } from "react-icons/di";
 
-export const resumeLink = "https://drive.google.com/file/d/1dp9zYqgvYBNga49JDnm5lizsT1rWQRCa/view?usp=sharing";
+export const resumeLink = "https://drive.google.com/file/d/1Jhqyp7InLeMBzGl16KqC67j9Wnnx1THK/view?usp=sharing";
 export const repoLink = "https://github.com/danzajac/portfolio";
 
 export const callToAction = "https://www.linkedin.com/in/daniel-zajac-32785727a/";
