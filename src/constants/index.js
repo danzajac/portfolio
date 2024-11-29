@@ -46,9 +46,10 @@ import {
   SiReact,
   SiTailwindcss,
   SiGraphql,
+  SiPhp,
   SiPython,
-  SiCplusplus,
-  SiC,
+  SiCsharp,
+  SiTypescript,
   SiRubyonrails,
   SiJquery,
   SiVisualstudiocode,
@@ -56,7 +57,7 @@ import {
   SiGit,
   SiMysql,
   SiSolidity,
-  SiNetlify,
+  SiLaravel,
   SiChartdotjs,
   SiVite,
   SiArduino,
@@ -72,23 +73,32 @@ import {
   SiOpenai,
   SiGooglecloud,
   SiNextdotjs,
-  SiMicrosoftazure
+  SiMicrosoftazure,
+  SiVuetify,
+  SiNuxtdotjs,
+  SiDrupal,
+  SiMagento,
+  SiRedux,
+  SiMongodb,
+  SiPostgresql,
+  SiLinux
 } from "react-icons/si";
 
 import {
+  FaAws,
   FaHardHat,
-  FaRust
+  FaNode,
 } from "react-icons/fa";
 
-import {
-  IoIosNotificationsOutline
-} from "react-icons/io";
+import { IoIosNotificationsOutline } from "react-icons/io";
 
-import {
-  FaGolang
-} from "react-icons/fa6";
+import { IoLogoFirebase } from "react-icons/io5";
 
-import { DiCss3, DiJava, DiMsqlServer, DiRuby } from "react-icons/di";
+import { FaVuejs } from "react-icons/fa6";
+
+import { DiCss3, DiMsqlServer } from "react-icons/di";
+
+import { TbBrandNextjs } from "react-icons/tb";
 
 export const resumeLink = "https://drive.google.com/file/d/1Jhqyp7InLeMBzGl16KqC67j9Wnnx1THK/view?usp=sharing";
 export const repoLink = "https://github.com/danzajac/portfolio";
@@ -116,10 +126,10 @@ export const navLinks = [
   //   id: "openSource",
   //   title: "Open Source",
   // },
-  {
-    id: "extraCurricular",
-    title: "Extra Curricular",
-  },
+  // {
+  //   id: "extraCurricular",
+  //   title: "Extra Curricular",
+  // },
   {
     id: "contactMe",
     title: "Contact Me",
@@ -231,8 +241,18 @@ export const skills = [
     items: [
       {
         id: "pl-1",
-        icon: DiRuby,
-        name: "Ruby",
+        icon: SiPhp,
+        name: "PHP",
+      },
+      {
+        id: "pl-10",
+        icon: SiJavascript,
+        name: "JavaScript",
+      },
+      {
+        id: "pl-4",
+        icon: SiTypescript,
+        name: "TypeScript",
       },
       {
         id: "pl-2",
@@ -241,28 +261,8 @@ export const skills = [
       },
       {
         id: "pl-3",
-        icon: SiCplusplus,
-        name: "C++",
-      },
-      {
-        id: "pl-4",
-        icon: FaGolang,
-        name: "Go",
-      },
-      {
-        id: "pl-5",
-        icon: FaRust,
-        name: "Rust",
-      },
-      {
-        id: "pl-6",
-        icon: DiJava,
-        name: "Java",
-      },
-      {
-        id: "pl-7",
-        icon: SiC,
-        name: "C",
+        icon: SiCsharp ,
+        name: "C#",
       },
       {
         id: "pl-8",
@@ -275,11 +275,6 @@ export const skills = [
         name: "CSS",
       },
       {
-        id: "pl-10",
-        icon: SiJavascript,
-        name: "JavaScript",
-      },
-      {
         id: "pl-11",
         icon: SiSolidity,
         name: "Solidity",
@@ -290,19 +285,34 @@ export const skills = [
     title: "Frameworks/Libraries",
     items: [
       {
-        id: "f-1",
-        icon: SiDjango,
-        name: "Django",
-      },
-      {
-        id: "f-2",
-        icon: SiRubyonrails,
-        name: "Ruby on Rails",
+        id: "f-9",
+        icon: SiLaravel,
+        name: "Laravel",
       },
       {
         id: "f-3",
         icon: SiReact,
         name: "ReactJS",
+      },
+      {
+        id: "f-2",
+        icon: TbBrandNextjs,
+        name: "NextJS",
+      },
+      {
+        id: "f-1",
+        icon: FaVuejs,
+        name: "VueJS",
+      },
+      {
+        id: "f-10",
+        icon: SiVuetify,
+        name: "Vuetify",
+      },
+      {
+        id: "f-11",
+        icon: SiNuxtdotjs,
+        name: "NuxtJS"
       },
       {
         id: "f-4",
@@ -325,9 +335,24 @@ export const skills = [
         name: "GraphQL",
       },
       {
+        id: "f-12",
+        icon: SiDrupal,
+        name: "Drupal",
+      },
+      {
+        id: "f-13",
+        icon: SiMagento,
+        name: "Magento",
+      },
+      {
         id: "f-8",
         icon: SiDotnet,
         name: ".NET",
+      },
+      {
+        id: "f-14",
+        icon: FaNode,
+        name: "Node",
       },
     ],
   },
@@ -340,9 +365,34 @@ export const skills = [
         name: "Azure",
       },
       {
+        id: "t-10",
+        icon: FaAws,
+        name: "AWS",
+      },
+      {
+        id: "t-12",
+        icon: SiGooglecloud,
+        name: "Google Cloud",
+      },
+      {
         id: "t-2",
         icon: SiMysql,
         name: "MySQL",
+      },
+      {
+        id: "t-13",
+        icon: SiMongodb,
+        name: "MongoDB",
+      },
+      {
+        id: "t-14",
+        icon: SiPostgresql,
+        name: "PostgreSQL",
+      },
+      {
+        id: "t-11",
+        icon: SiRedux,
+        name: "Redux",
       },
       {
         id: "t-3",
@@ -353,6 +403,11 @@ export const skills = [
         id: "t-4",
         icon: SiVisualstudiocode,
         name: "VS Code",
+      },
+      {
+        id: "t-15",
+        icon: SiLinux,
+        name: "Linux",
       },
       {
         id: "t-5",
@@ -371,8 +426,8 @@ export const skills = [
       },
       {
         id: "t-8",
-        icon: SiNetlify,
-        name: "Netlify",
+        icon: IoLogoFirebase,
+        name: "Firebase",
       },
       {
         id: "t-9",
