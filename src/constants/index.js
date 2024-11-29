@@ -104,18 +104,18 @@ export const navLinks = [
     id: "education",
     title: "Education",
   },
-  {
-    id: "achievements",
-    title: "Achievements",
-  },
+  // {
+  //   id: "achievements",
+  //   title: "Achievements",
+  // },
   {
     id: "projects",
     title: "Projects",
   },
-  {
-    id: "openSource",
-    title: "Open Source",
-  },
+  // {
+  //   id: "openSource",
+  //   title: "Open Source",
+  // },
   {
     id: "extraCurricular",
     title: "Extra Curricular",
@@ -190,7 +190,7 @@ export const achievements = [
     content2: "",
     content3: "",
     youtube: "https://www.youtube.com/watch?v=X2473En3h_o&t=5278s",
-    project: "https://parthmittal.netlify.app/",
+    project: "https://danielzajac.netlify.app/",
   },
   {
     id: "a-5",
@@ -815,7 +815,7 @@ export const projects = [
     id: "project-10",
     title: "Portfolio",
     github: "https://github.com/danzajac/portfolio",
-    link: "https://parthmittal.netlify.app/",
+    link: "https://danielzajac.netlify.app/",
     image: portfolio,
     content: "Personal portfolio website with React and Tailwind CSS.",
     stack: [
