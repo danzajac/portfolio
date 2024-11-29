@@ -90,10 +90,10 @@ import {
 
 import { DiCss3, DiJava, DiMsqlServer, DiRuby } from "react-icons/di";
 
-export const resumeLink = "https://drive.google.com/file/d/1vkxyMDB5_KpMwt4QXFgT2aqdRizr8Czh/view?usp=sharing";
-export const repoLink = "https://github.com/mittal-parth/personal-portfolio";
+export const resumeLink = "https://drive.google.com/file/d/1dp9zYqgvYBNga49JDnm5lizsT1rWQRCa/view?usp=sharing";
+export const repoLink = "https://github.com/danzajac/portfolio";
 
-export const callToAction = "https://www.linkedin.com/in/mittal-parth";
+export const callToAction = "https://www.linkedin.com/in/daniel-zajac-32785727a/";
 
 export const navLinks = [
   {
@@ -814,7 +814,7 @@ export const projects = [
   {
     id: "project-10",
     title: "Portfolio",
-    github: "https://github.com/mittal-parth/personal-portfolio",
+    github: "https://github.com/danzajac/portfolio",
     link: "https://parthmittal.netlify.app/",
     image: portfolio,
     content: "Personal portfolio website with React and Tailwind CSS.",
@@ -1014,12 +1014,12 @@ export const socialMedia = [
   {
     id: "social-media-1",
     icon: AiFillLinkedin,
-    link: "https://www.linkedin.com/in/mittal-parth",
+    link: "https://www.linkedin.com/in/daniel-zajac-32785727a/",
   },
   {
     id: "social-media-2",
     icon: AiFillGithub,
-    link: "https://www.github.com/mittal-parth",
+    link: "https://www.github.com/danzajac",
   },
   {
     id: "social-media-3",
