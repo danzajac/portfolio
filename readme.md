@@ -128,7 +128,6 @@ our community aspires to be a respectful place both during online and in-person 
 - [Submit a Pull Request](https://docs.github.com/en/get-started/quickstart/contributing-to-projects#making-a-pull-request) to the main branch.
 - After any questions or changes have been resolved, your contribution would be merged in!
 
-
 #### If you found this repo helpful in anyway, considering giving it a star - it would mean the world to me! 🌟
 
 ## References & Inspirations 👏
