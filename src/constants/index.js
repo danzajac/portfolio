@@ -1,5 +1,5 @@
 import {
-  nitk,
+  uod,
   cluboard,
   cash_flow,
   gdsc,
@@ -19,7 +19,7 @@ import {
   greentrust,
   confidential,
   devfolio,
-  pba,
+  uop,
   ethglobal,
   polkadot,
   lightspeed,
@@ -140,7 +140,7 @@ export const navLinks = [
 export const educationList = [
   {
     id: "education-1",
-    icon: nitk,
+    icon: uod,
     title: "University of Dayton",
     degree: "Master of Technology",
     duration: "2012 - 2013",
@@ -149,7 +149,7 @@ export const educationList = [
   },
   {
     id: "education-2",
-    icon: pba,
+    icon: uop,
     title: "University of Pittsburgh",
     degree: "Bachelor of Computer Science",
     duration: "2008 - 2012",
