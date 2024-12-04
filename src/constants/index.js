@@ -3,7 +3,7 @@ import {
   cluboard,
   cash_flow,
   gdsc,
-  iris,
+  bizequity,
   ecell,
   genesis,
   portfolio,
@@ -14,10 +14,10 @@ import {
   placeicon,
   recruitment,
   huntly,
-  oracle,
+  tmobile,
   comicify_ai,
   greentrust,
-  averlon,
+  confidential,
   devfolio,
   pba,
   ethglobal,
@@ -442,7 +442,7 @@ export const skills = [
 export const experiences = [
   {
     organisation: "T-Mobile",
-    logo: oracle,
+    logo: tmobile,
     link: "https://www.t-mobile.com/",
     positions: [
       {
@@ -485,7 +485,7 @@ export const experiences = [
   },
   {
     organisation: "Confidential",
-    logo: averlon,
+    logo: confidential,
     link: "https://www.linkedin.com/company/goconfidentia",
     positions: [
       {
@@ -510,7 +510,7 @@ export const experiences = [
   },
   {
     organisation: "BizEquity",
-    logo: iris,
+    logo: bizequity,
     link: "https://www.bizequity.com/",
     positions: [
       {
@@ -1037,19 +1037,6 @@ export const extraCurricular = [
     logo: genesis,
   },
   {
-    id: 4,
-    organisation: "IRIS, NITK",
-    title: "Tutor",
-    duration: "Jan 2022 - Jan 2022",
-    content: [
-      {
-        text: "Mentored 150+ students in a month-long Web Development and Ruby on Rails Bootcamp",
-        link: "https://github.com/IRIS-NITK/IRIS-RoR-Bootcamp-2021",
-      },
-    ],
-    logo: iris,
-  },
-  {
     id: 5,
     organisation: "E-Cell, NITK",
     title: "Executive Member",
@@ -1091,7 +1078,7 @@ export const socialMedia = [
 export const aboutMe = {
     name: "Daniel Zajac",
     githubUsername: 'danzajac',
-    tagLine: "MTS-1 @Oracle | ex-SDE Intern @Averlon | ex-Tech Lead @IRIS,NITK | ETHIndia'22 Winner | NITK'24",
+    tagLine: "Sr.Dev. @T-Mobile | ex-SSE @Confidential | ex-Tech Lead @BizEquity",
     intro: "Software Developer from the US, always refining his craft or envisioning the future of tech."
 }
 

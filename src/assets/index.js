@@ -22,7 +22,7 @@ import freadom from "./freadom.jpg";
 import ecell from "./ecell.png";
 import bank from "./bank.jpg";
 import gdsc from "./gdsc.png";
-import iris from "./iris.png";
+import bizequity from "./bizequity.jpg";
 import genesis from "./genesis.jpg";
 import todo from "./todo.jpg";
 import graphql from "./graphql.png";
@@ -34,10 +34,10 @@ import chargeswap from "./chargeswap.png";
 import placeicon from "./place-icon.svg";
 import recruitment from "./recruitment.png";
 import huntly from "./huntly.png";
-import oracle from "./oracle.jpg";
+import tmobile from "./t-mobile.svg";
 import comicify_ai from "./comicify-ai.png";
 import greentrust from "./green_trust.png";
-import averlon from "./averlon.jpg";
+import confidential from "./confidential.jpg";
 import devfolio from "./devfolio.png";
 import pba from "./pba_logo.jpeg";
 import ethglobal from "./ethglobal.png";
@@ -70,7 +70,7 @@ export {
   freadom,
   bank,
   gdsc,
-  iris,
+  bizequity,
   ecell,
   genesis,
   todo,
@@ -85,10 +85,10 @@ export {
   placeicon,
   recruitment,
   huntly,
-  oracle,
+  tmobile,
   comicify_ai,
   greentrust,
-  averlon,
+  confidential,
   devfolio,
   pba,
   ethglobal,
