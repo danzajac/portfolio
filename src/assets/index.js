@@ -16,8 +16,8 @@ import instagram from "./instagram.svg";
 import linkedin from "./linkedin.svg";
 import twitter from "./twitter.svg";
 import uod from "./uod.png";
-import cluboard from "./cluboard.png";
-import cash_flow from "./cash_flow.jpg";
+import kennedywilson from "./kennedy-wilson.webp";
+import planetizen from "./planetizen-courses.webp";
 import freadom from "./freadom.jpg";
 import ecell from "./ecell.png";
 import bank from "./bank.jpg";
@@ -26,17 +26,17 @@ import bizequity from "./bizequity.jpg";
 import genesis from "./genesis.jpg";
 import todo from "./todo.jpg";
 import graphql from "./graphql.png";
-import portfolio from "./portfolio.jpg";
+import portfolio from "./portfolio.webp";
 import zulip from "./zulip.jpg";
 import publiclab from "./publiclab.png";
-import cdc from "./cdc.png";
-import chargeswap from "./chargeswap.png";
-import placeicon from "./place-icon.svg";
-import recruitment from "./recruitment.png";
-import huntly from "./huntly.png";
+import mha from "./mha.webp";
+import davidsbridal from "./davids-bridal.webp";
+import sportsthread from "./sports-thread.webp";
+import addonnetworks from "./add-on-networks.webp";
+import keepabreast from "./keep-a-breast.webp";
 import tmobile from "./t-mobile.svg";
-import comicify_ai from "./comicify-ai.png";
-import greentrust from "./green_trust.png";
+import healthpiper from "./health-piper.webp";
+import skinactives from "./skin-actives-scientific.webp";
 import confidential from "./confidential.jpg";
 import devfolio from "./devfolio.png";
 import uop from "./uop.png";
@@ -47,6 +47,21 @@ import dennisivy from "./dennisivy.png";
 import manipal from "./manipal.png";
 import icon from "./icon.jpg";
 import ethforall from "./ethforall.png";
+import ymca from "./ymca.webp";
+import graysonsjewelers from "./gray-sons-jewelers.webp";
+import greenplaque from "./green-plaque.webp";
+import cec from "./cec.webp";
+import dairyfarmers from "./dairy-farmers-of-america.webp";
+import grassoutlet from "./the-grass-outlet.webp";
+import fencingdirect from "./fencing-direct.webp";
+import happybottoms from "./happy-bottoms.webp";
+import loadstar from "./loadstar.webp";
+import hurricaneshutters from "./hurricane-shutters-wholesale.webp";
+import theboard from "./the-board.webp";
+import lacma from "./lacma.webp";
+import martincounty from "./martin-county-florida.webp";
+import gilcreasemuseum from "./gilcrease-museum.webp";
+import bizequityweb from "./bizequity.webp";
 
 export {
   quotes,
@@ -65,8 +80,8 @@ export {
   linkedin,
   twitter,
   uod,
-  cluboard,
-  cash_flow,
+  kennedywilson,
+  planetizen,
   freadom,
   bank,
   gdsc,
@@ -78,16 +93,16 @@ export {
   portfolio,
   publiclab,
   zulip,
-  cdc,
+  mha,
   danielzajac,
   profilePic,
-  chargeswap,
-  placeicon,
-  recruitment,
-  huntly,
+  davidsbridal,
+  sportsthread,
+  addonnetworks,
+  keepabreast,
   tmobile,
-  comicify_ai,
-  greentrust,
+  healthpiper,
+  skinactives,
   confidential,
   devfolio,
   uop,
@@ -97,5 +112,20 @@ export {
   dennisivy,
   manipal,
   icon,
-  ethforall
+  ethforall,
+  ymca,
+  graysonsjewelers,
+  greenplaque,
+  cec,
+  dairyfarmers,
+  grassoutlet,
+  fencingdirect,
+  happybottoms,
+  loadstar,
+  hurricaneshutters,
+  theboard,
+  lacma,
+  martincounty,
+  gilcreasemuseum,
+  bizequityweb,
 };

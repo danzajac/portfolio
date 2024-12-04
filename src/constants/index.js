@@ -1,7 +1,7 @@
 import {
   uod,
-  cluboard,
-  cash_flow,
+  kennedywilson,
+  planetizen,
   gdsc,
   bizequity,
   ecell,
@@ -9,14 +9,14 @@ import {
   portfolio,
   publiclab,
   zulip,
-  cdc,
-  chargeswap,
-  placeicon,
-  recruitment,
-  huntly,
+  mha,
+  davidsbridal,
+  sportsthread,
+  addonnetworks,
+  keepabreast,
   tmobile,
-  comicify_ai,
-  greentrust,
+  healthpiper,
+  skinactives,
   confidential,
   devfolio,
   uop,
@@ -26,7 +26,22 @@ import {
   dennisivy,
   manipal,
   icon,
-  ethforall
+  ethforall,
+  ymca,
+  graysonsjewelers,
+  greenplaque,
+  cec,
+  dairyfarmers,
+  grassoutlet,
+  fencingdirect,
+  happybottoms,
+  loadstar,
+  hurricaneshutters,
+  theboard,
+  lacma,
+  martincounty,
+  gilcreasemuseum,
+  bizequityweb,
 } from "../assets";
 
 import {
@@ -553,88 +568,11 @@ export const experiences = [
 // Add information about all the projects to be listed out in your portfolio
 export const projects = [
   {
-    id: "project-1",
-    title: "Comicify.ai",
-    github: "https://github.com/ayush4345/Comicify.ai",
-    link: "https://comicify-ai.vercel.app/",
-    image: comicify_ai,
-    content:
-      "Convert any academic/news/boring text into cool comic strips using GPT-3.5 and Stable Diffusion!",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiReact,
-        name: "React"
-      },
-      {
-        id: "icon-2",
-        icon: SiTailwindcss,
-        name: "TailwindCSS"
-      },
-      {
-        id: "icon-3",
-        icon: SiOpenai,
-        name: "OpenAI"
-      },
-      {
-        id: "icon-4",
-        icon: SiGooglecloud,
-        name: "Google Cloud Platform"
-      },
-      {
-        id: "icon-5",
-        icon: SiFlask,
-        name: "Flask"
-      },
-    ],
-  },
-  {
-    id: "project-2",
-    title: "GreenTrust",
-    github: "https://github.com/mittal-parth/GreenTrust",
-    link: "https://green-trust-fantom.netlify.app/",
-    image: greentrust,
-    content:
-      "Winning project at 3 hackathons, GreenTrust offers a novel solution for obtaining certification in organic farming by organizing credible and decentralized Participatory Guarantee Systems (PGSs).",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiReact,
-        name: "React"
-      },
-      {
-        id: "icon-2",
-        icon: SiTailwindcss,
-        name: "TailwindCSS"
-      },
-      {
-        id: "icon-3",
-        icon: SiNextdotjs,
-        name: "Next.js"
-      },
-      {
-        id: "icon-4",
-        icon: SiIpfs,
-        name: "IPFS"
-      },
-      {
-        id: "icon-5",
-        icon: SiSolidity,
-        name: "Solidity"
-      },
-      {
-        id: "icon-6",
-        icon: IoIosNotificationsOutline,
-        name: "Push Protocol"
-      },
-    ],
-  },
-  {
     id: "project-3",
-    title: "ChargeSwap",
-    github: "https://github.com/CommanderAstern/ChargeSwap",
-    link: "https://devfolio.co/projects/chargeswap-3527",
-    image: chargeswap,
+    title: "DAVID’S BRIDAL",
+    github: "",
+    link: "https://www.davidsbridal.com/",
+    image: davidsbridal,
     content:
       "A Blockchain-based EV-Battery swapping solution - winning project at ETHIndia'22, the world's largest Ethereum Hackathon",
     stack: [
@@ -676,11 +614,88 @@ export const projects = [
     ],
   },
   {
-    id: "project-4",
-    title: "Samsotech Table Management System",
+    id: "project-1",
+    title: "HealthPiper",
     github: "",
-    link: "https://www.linkedin.com/posts/mittal-parth_technologysolutions-softwaredevelopment-technology-activity-6994915645066809344-WnMY?utm_source=share&utm_medium=member_desktop",
-    image: placeicon,
+    link: "https://healthpiper.com/",
+    image: healthpiper,
+    content:
+      "Convert any academic/news/boring text into cool comic strips using GPT-3.5 and Stable Diffusion!",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiReact,
+        name: "React"
+      },
+      {
+        id: "icon-2",
+        icon: SiTailwindcss,
+        name: "TailwindCSS"
+      },
+      {
+        id: "icon-3",
+        icon: SiOpenai,
+        name: "OpenAI"
+      },
+      {
+        id: "icon-4",
+        icon: SiGooglecloud,
+        name: "Google Cloud Platform"
+      },
+      {
+        id: "icon-5",
+        icon: SiFlask,
+        name: "Flask"
+      },
+    ],
+  },
+  {
+    id: "project-2",
+    title: "Skin Actives Scientific",
+    github: "",
+    link: "https://skinactives.com/",
+    image: skinactives,
+    content:
+      "Winning project at 3 hackathons, GreenTrust offers a novel solution for obtaining certification in organic farming by organizing credible and decentralized Participatory Guarantee Systems (PGSs).",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiReact,
+        name: "React"
+      },
+      {
+        id: "icon-2",
+        icon: SiTailwindcss,
+        name: "TailwindCSS"
+      },
+      {
+        id: "icon-3",
+        icon: SiNextdotjs,
+        name: "Next.js"
+      },
+      {
+        id: "icon-4",
+        icon: SiIpfs,
+        name: "IPFS"
+      },
+      {
+        id: "icon-5",
+        icon: SiSolidity,
+        name: "Solidity"
+      },
+      {
+        id: "icon-6",
+        icon: IoIosNotificationsOutline,
+        name: "Push Protocol"
+      },
+    ],
+  },
+  {
+    id: "project-4",
+    title: "Sports Thread",
+    github: "",
+    link: "https://sportsthread.com/",
+    image: sportsthread,
     content:
       "Restaurant, Place, Table and realtime Reservation Management with Multi-Tenant Architecture, RBAC, SMS and Email integration for Samsotech International",
     stack: [
@@ -713,10 +728,10 @@ export const projects = [
   },
   {
     id: "project-5",
-    title: "Non-Teaching Recruitment Portal, NITK",
+    title: "AddOn Network",
     github: "",
-    link: "http://recruitment.nitk.ac.in/",
-    image: recruitment,
+    link: "https://www.addonnetworks.com/",
+    image: addonnetworks,
     content:
       "The official recruitment portal for non-teaching staff with an admin panel, email notifications and payment integration.",
     stack: [
@@ -739,10 +754,10 @@ export const projects = [
   },
   {
     id: "project-6",
-    title: "Career Development Centre, NITK Website",
+    title: "MHA of Frederick County",
     github: "",
-    link: "http://cdc.nitk.ac.in/",
-    image: cdc,
+    link: "https://fcmha.org/",
+    image: mha,
     content:
       "The official website of CDC, NITK with a custom built CMS.",
     stack: [
@@ -765,10 +780,10 @@ export const projects = [
   },
   {
     id: "project-7",
-    title: "Huntly",
+    title: "Keep A Breast",
     github: "",
-    link: "https://devfolio.co/projects/huntly-b5a9",
-    image: huntly,
+    link: "https://www.keep-a-breast.org/",
+    image: keepabreast,
     content:
       "A cross-platform mobile application that brings people closer to the physical environment and forms meaningful connections by organising real-world Treasure Hunts for free and winning rewards. The app uses machine learning to match users and form teams of like-minded people.",
     stack: [
@@ -806,10 +821,10 @@ export const projects = [
   },
   {
     id: "project-8",
-    title: "Cluboard",
-    github: "https://github.com/mittal-parth/Cluboard",
-    link: "",
-    image: cluboard,
+    title: "Kennedy Wilson",
+    github: "",
+    link: "https://www.kennedywilson.com/",
+    image: kennedywilson,
     content:
       "A full-stack web application to facilitate sharing resources in college clubs with email notifications, requests and ticketing system, and analytical dashboards.",
     stack: [
@@ -847,10 +862,10 @@ export const projects = [
   },
   {
     id: "project-9",
-    title: "Cash Flow Minimiser",
-    github: "https://github.com/mittal-parth/Cash-Flow-Minmiser",
-    link: "https://minimise-cash-flow.netlify.app/",
-    image: cash_flow,
+    title: "Planetizen Courses",
+    github: "",
+    link: "https://courses.planetizen.com/",
+    image: planetizen,
     content:
       "A React application to help users visualise and minimise cash flow among multiple transactions.",
     stack: [
@@ -894,6 +909,396 @@ export const projects = [
         icon: AiFillHtml5,
         name: "HTML"
       },
+    ],
+  },
+  {
+    id: "project-11",
+    title: "YMCA of the North",
+    github: "",
+    link: "https://www.ymcanorth.org/",
+    image: ymca,
+    content:
+      "A React application to help users visualise and minimise cash flow among multiple transactions.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiReact,
+        name: "React"
+      },
+      {
+        id: "icon-2",
+        icon: AiFillHtml5,
+        name: "HTML"
+      },
+      {
+        id: "icon-3",
+        icon: DiCss3,
+        name: "CSS"
+      }
+    ],
+  },
+  {
+    id: "project-12",
+    title: "Gray and Sons",
+    github: "",
+    link: "https://www.grayandsons.com/",
+    image: graysonsjewelers,
+    content:
+      "A React application to help users visualise and minimise cash flow among multiple transactions.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiReact,
+        name: "React"
+      },
+      {
+        id: "icon-2",
+        icon: AiFillHtml5,
+        name: "HTML"
+      },
+      {
+        id: "icon-3",
+        icon: DiCss3,
+        name: "CSS"
+      }
+    ],
+  },
+  {
+    id: "project-13",
+    title: "Green Plaque",
+    github: "",
+    link: "https://www.greenplaque.com/",
+    image: greenplaque,
+    content:
+      "A React application to help users visualise and minimise cash flow among multiple transactions.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiReact,
+        name: "React"
+      },
+      {
+        id: "icon-2",
+        icon: AiFillHtml5,
+        name: "HTML"
+      },
+      {
+        id: "icon-3",
+        icon: DiCss3,
+        name: "CSS"
+      }
+    ],
+  },
+  {
+    id: "project-14",
+    title: "Council for Exceptional Children (CEC)",
+    github: "",
+    link: "https://exceptionalchildren.org/",
+    image: cec,
+    content:
+      "A React application to help users visualise and minimise cash flow among multiple transactions.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiReact,
+        name: "React"
+      },
+      {
+        id: "icon-2",
+        icon: AiFillHtml5,
+        name: "HTML"
+      },
+      {
+        id: "icon-3",
+        icon: DiCss3,
+        name: "CSS"
+      }
+    ],
+  },
+  {
+    id: "project-15",
+    title: "Dairy Farmers of America (DFA)",
+    github: "",
+    link: "https://www.dfamilk.com/",
+    image: dairyfarmers,
+    content:
+      "A React application to help users visualise and minimise cash flow among multiple transactions.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiReact,
+        name: "React"
+      },
+      {
+        id: "icon-2",
+        icon: AiFillHtml5,
+        name: "HTML"
+      },
+      {
+        id: "icon-3",
+        icon: DiCss3,
+        name: "CSS"
+      }
+    ],
+  },
+  {
+    id: "project-16",
+    title: "The Grass Outlet",
+    github: "",
+    link: "https://thegrassoutlet.com/",
+    image: grassoutlet,
+    content:
+      "A React application to help users visualise and minimise cash flow among multiple transactions.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiReact,
+        name: "React"
+      },
+      {
+        id: "icon-2",
+        icon: AiFillHtml5,
+        name: "HTML"
+      },
+      {
+        id: "icon-3",
+        icon: DiCss3,
+        name: "CSS"
+      }
+    ],
+  },
+  {
+    id: "project-17",
+    title: "Fencing Direct",
+    github: "",
+    link: "https://www.fencingdirect.com/",
+    image: fencingdirect,
+    content:
+      "A React application to help users visualise and minimise cash flow among multiple transactions.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiReact,
+        name: "React"
+      },
+      {
+        id: "icon-2",
+        icon: AiFillHtml5,
+        name: "HTML"
+      },
+      {
+        id: "icon-3",
+        icon: DiCss3,
+        name: "CSS"
+      }
+    ],
+  },
+  {
+    id: "project-18",
+    title: "Happy Bottoms",
+    github: "",
+    link: "https://happybottoms.org/",
+    image: happybottoms,
+    content:
+      "A React application to help users visualise and minimise cash flow among multiple transactions.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiReact,
+        name: "React"
+      },
+      {
+        id: "icon-2",
+        icon: AiFillHtml5,
+        name: "HTML"
+      },
+      {
+        id: "icon-3",
+        icon: DiCss3,
+        name: "CSS"
+      }
+    ],
+  },
+  {
+    id: "project-19",
+    title: "Loadstar",
+    github: "",
+    link: "https://loadstarusa.com/",
+    image: loadstar,
+    content:
+      "A React application to help users visualise and minimise cash flow among multiple transactions.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiReact,
+        name: "React"
+      },
+      {
+        id: "icon-2",
+        icon: AiFillHtml5,
+        name: "HTML"
+      },
+      {
+        id: "icon-3",
+        icon: DiCss3,
+        name: "CSS"
+      }
+    ],
+  },
+  {
+    id: "project-20",
+    title: "Hurricane Shutters Wholesale",
+    github: "",
+    link: "https://www.hurricaneshutterswholesale.com/",
+    image: hurricaneshutters,
+    content:
+      "A React application to help users visualise and minimise cash flow among multiple transactions.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiReact,
+        name: "React"
+      },
+      {
+        id: "icon-2",
+        icon: AiFillHtml5,
+        name: "HTML"
+      },
+      {
+        id: "icon-3",
+        icon: DiCss3,
+        name: "CSS"
+      }
+    ],
+  },
+  {
+    id: "project-21",
+    title: "The Broad",
+    github: "",
+    link: "https://www.thebroad.org/",
+    image: theboard,
+    content:
+      "A React application to help users visualise and minimise cash flow among multiple transactions.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiReact,
+        name: "React"
+      },
+      {
+        id: "icon-2",
+        icon: AiFillHtml5,
+        name: "HTML"
+      },
+      {
+        id: "icon-3",
+        icon: DiCss3,
+        name: "CSS"
+      }
+    ],
+  },
+  {
+    id: "project-22",
+    title: "LACMA",
+    github: "",
+    link: "https://www.lacma.org/",
+    image: lacma,
+    content:
+      "A React application to help users visualise and minimise cash flow among multiple transactions.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiReact,
+        name: "React"
+      },
+      {
+        id: "icon-2",
+        icon: AiFillHtml5,
+        name: "HTML"
+      },
+      {
+        id: "icon-3",
+        icon: DiCss3,
+        name: "CSS"
+      }
+    ],
+  },
+  {
+    id: "project-23",
+    title: "Martin County",
+    github: "",
+    link: "https://www.martin.fl.us/",
+    image: martincounty,
+    content:
+      "A React application to help users visualise and minimise cash flow among multiple transactions.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiReact,
+        name: "React"
+      },
+      {
+        id: "icon-2",
+        icon: AiFillHtml5,
+        name: "HTML"
+      },
+      {
+        id: "icon-3",
+        icon: DiCss3,
+        name: "CSS"
+      }
+    ],
+  },
+  {
+    id: "project-24",
+    title: "Gilcrease Museum",
+    github: "",
+    link: "https://collections.gilcrease.org/",
+    image: gilcreasemuseum,
+    content:
+      "A React application to help users visualise and minimise cash flow among multiple transactions.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiReact,
+        name: "React"
+      },
+      {
+        id: "icon-2",
+        icon: AiFillHtml5,
+        name: "HTML"
+      },
+      {
+        id: "icon-3",
+        icon: DiCss3,
+        name: "CSS"
+      }
+    ],
+  },
+  {
+    id: "project-25",
+    title: "BizEquity",
+    github: "",
+    link: "https://www.bizequity.com/",
+    image: bizequityweb,
+    content:
+      "A React application to help users visualise and minimise cash flow among multiple transactions.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiReact,
+        name: "React"
+      },
+      {
+        id: "icon-2",
+        icon: AiFillHtml5,
+        name: "HTML"
+      },
+      {
+        id: "icon-3",
+        icon: DiCss3,
+        name: "CSS"
+      }
     ],
   },
 ];
