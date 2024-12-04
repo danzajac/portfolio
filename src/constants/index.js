@@ -1,5 +1,5 @@
 import {
-  nitk,
+  uod,
   cluboard,
   cash_flow,
   gdsc,
@@ -19,7 +19,7 @@ import {
   greentrust,
   confidential,
   devfolio,
-  pba,
+  uop,
   ethglobal,
   polkadot,
   lightspeed,
@@ -140,20 +140,21 @@ export const navLinks = [
 export const educationList = [
   {
     id: "education-1",
-    icon: nitk,
-    title: "National Institute of Technology Karnataka, Surathkal",
-    degree: "Bachelor of Technology",
-    duration: "December 2020 - May 2024",
-    content1: "Major: Electronics and Communication Engineering",
-    content2: "Minor: Information Technology",
+    icon: uod,
+    title: "University of Dayton",
+    degree: "Master of Technology",
+    duration: "2012 - 2013",
+    content1: "Major: Computer engineering",
+    content2: "Minor: Business Analytics",
   },
   {
     id: "education-2",
-    icon: pba,
-    title: "Polkadot Blockchain Academy",
-    degree: "",
-    duration: "May 2024 - June 2024",
-    content1: "Graduated with a distinction in the fifth cohort of the Polkadot Blockchain Academy at the National University of Singapore.",
+    icon: uop,
+    title: "University of Pittsburgh",
+    degree: "Bachelor of Computer Science",
+    duration: "2008 - 2012",
+    content1: "Major: Computer science",
+    content2: "Minor: Algorithms and Implementation",
   },
 ];
 

@@ -15,7 +15,7 @@ import facebook from "./facebook.svg";
 import instagram from "./instagram.svg";
 import linkedin from "./linkedin.svg";
 import twitter from "./twitter.svg";
-import nitk from "./nitk.png";
+import uod from "./uod.png";
 import cluboard from "./cluboard.png";
 import cash_flow from "./cash_flow.jpg";
 import freadom from "./freadom.jpg";
@@ -39,7 +39,7 @@ import comicify_ai from "./comicify-ai.png";
 import greentrust from "./green_trust.png";
 import confidential from "./confidential.jpg";
 import devfolio from "./devfolio.png";
-import pba from "./pba_logo.jpeg";
+import uop from "./uop.png";
 import ethglobal from "./ethglobal.png";
 import polkadot from "./polkadot.jpeg";
 import lightspeed from "./lightspeed.png";
@@ -64,7 +64,7 @@ export {
   instagram,
   linkedin,
   twitter,
-  nitk,
+  uod,
   cluboard,
   cash_flow,
   freadom,
@@ -90,7 +90,7 @@ export {
   greentrust,
   confidential,
   devfolio,
-  pba,
+  uop,
   ethglobal,
   polkadot,
   lightspeed,
