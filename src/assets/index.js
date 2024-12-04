@@ -31,7 +31,7 @@ import fencingdirect from "./fencing-direct.webp";
 import happybottoms from "./happy-bottoms.webp";
 import loadstar from "./loadstar.webp";
 import hurricaneshutters from "./hurricane-shutters-wholesale.webp";
-import theboard from "./the-board.webp";
+import thebroad from "./the-broad.webp";
 import lacma from "./lacma.webp";
 import martincounty from "./martin-county-florida.webp";
 import gilcreasemuseum from "./gilcrease-museum.webp";
@@ -71,7 +71,7 @@ export {
   happybottoms,
   loadstar,
   hurricaneshutters,
-  theboard,
+  thebroad,
   lacma,
   martincounty,
   gilcreasemuseum,

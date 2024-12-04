@@ -27,7 +27,7 @@ import {
   happybottoms,
   loadstar,
   hurricaneshutters,
-  theboard,
+  thebroad,
   lacma,
   martincounty,
   gilcreasemuseum,
@@ -514,7 +514,7 @@ export const projects = [
     link: "https://www.davidsbridal.com/",
     image: davidsbridal,
     content:
-      "A Blockchain-based EV-Battery swapping solution - winning project at ETH'22, the world's largest Ethereum Hackathon",
+      "A new eCommerce solution for one of the largest wedding dress retailers in the world.",
     stack: [
       {
         id: "icon-1",
@@ -561,7 +561,7 @@ export const projects = [
     link: "https://healthpiper.com/",
     image: healthpiper,
     content:
-      "Convert any academic/news/boring text into cool comic strips using GPT-3.5 and Stable Diffusion!",
+      "A pioneering digital mental health platform that offers remote psychiatric services to patients.",
     stack: [
       {
         id: "icon-1",
@@ -597,8 +597,7 @@ export const projects = [
     github: "",
     link: "https://skinactives.com/",
     image: skinactives,
-    content:
-      "Winning project at 3 hackathons, GreenTrust offers a novel solution for obtaining certification in organic farming by organizing credible and decentralized Participatory Guarantee Systems (PGSs).",
+    content: "The ultimate destination for personalized skincare with ready-made and DIY solutions.",
     stack: [
       {
         id: "icon-1",
@@ -639,8 +638,7 @@ export const projects = [
     github: "",
     link: "https://sportsthread.com/",
     image: sportsthread,
-    content:
-      "Restaurant, Place, Table and realtime Reservation Management with Multi-Tenant Architecture, RBAC, SMS and Email integration for Samsotech International",
+    content: "The leading social networking and SaaS platform connecting the youth sports community.",
     stack: [
       {
         id: "icon-1",
@@ -676,8 +674,7 @@ export const projects = [
     github: "",
     link: "https://www.addonnetworks.com/",
     image: addonnetworks,
-    content:
-      "The official recruitment portal for non-teaching staff with an admin panel, email notifications and payment integration.",
+    content: "The world's largest independent provider of optical transceivers and high-speed cabling solutions.",
     stack: [
       {
         id: "icon-1",
@@ -703,8 +700,7 @@ export const projects = [
     github: "",
     link: "https://fcmha.org/",
     image: mha,
-    content:
-      "The official website of CDC, NITK with a custom built CMS.",
+    content: "A non-profit organization supporting the whole community through mental health education and advocacy.",
     stack: [
       {
         id: "icon-1",
@@ -730,8 +726,7 @@ export const projects = [
     github: "",
     link: "https://www.keep-a-breast.org/",
     image: keepabreast,
-    content:
-      "A cross-platform mobile application that brings people closer to the physical environment and forms meaningful connections by organising real-world Treasure Hunts for free and winning rewards. The app uses machine learning to match users and form teams of like-minded people.",
+    content: "A global organization dedicated to providing breast health education and support to young people.",
     stack: [
       {
         id: "icon-1",
@@ -773,7 +768,7 @@ export const projects = [
     link: "https://www.kennedywilson.com/",
     image: kennedywilson,
     content:
-      "A full-stack web application to facilitate sharing resources in college clubs with email notifications, requests and ticketing system, and analytical dashboards.",
+      "A global real estate investment company specializing in owning, operating, and investing in real estate both independently and through an investment management platform.",
     stack: [
       {
         id: "icon-1",
@@ -814,413 +809,7 @@ export const projects = [
     github: "",
     link: "https://courses.planetizen.com/",
     image: planetizen,
-    content:
-      "A React application to help users visualise and minimise cash flow among multiple transactions.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiReact,
-        name: "React"
-      },
-      {
-        id: "icon-2",
-        icon: AiFillHtml5,
-        name: "HTML"
-      },
-      {
-        id: "icon-3",
-        icon: DiCss3,
-        name: "CSS"
-      }
-    ],
-  },
-  {
-    id: "project-11",
-    title: "YMCA of the North",
-    active: true,
-    github: "",
-    link: "https://www.ymcanorth.org/",
-    image: ymca,
-    content:
-      "A React application to help users visualise and minimise cash flow among multiple transactions.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiReact,
-        name: "React"
-      },
-      {
-        id: "icon-2",
-        icon: AiFillHtml5,
-        name: "HTML"
-      },
-      {
-        id: "icon-3",
-        icon: DiCss3,
-        name: "CSS"
-      }
-    ],
-  },
-  {
-    id: "project-12",
-    title: "Gray and Sons",
-    active: true,
-    github: "",
-    link: "https://www.grayandsons.com/",
-    image: graysonsjewelers,
-    content:
-      "A React application to help users visualise and minimise cash flow among multiple transactions.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiReact,
-        name: "React"
-      },
-      {
-        id: "icon-2",
-        icon: AiFillHtml5,
-        name: "HTML"
-      },
-      {
-        id: "icon-3",
-        icon: DiCss3,
-        name: "CSS"
-      }
-    ],
-  },
-  {
-    id: "project-13",
-    title: "Green Plaque",
-    active: true,
-    github: "",
-    link: "https://www.greenplaque.com/",
-    image: greenplaque,
-    content:
-      "A React application to help users visualise and minimise cash flow among multiple transactions.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiReact,
-        name: "React"
-      },
-      {
-        id: "icon-2",
-        icon: AiFillHtml5,
-        name: "HTML"
-      },
-      {
-        id: "icon-3",
-        icon: DiCss3,
-        name: "CSS"
-      }
-    ],
-  },
-  {
-    id: "project-14",
-    title: "Council for Exceptional Children (CEC)",
-    active: true,
-    github: "",
-    link: "https://exceptionalchildren.org/",
-    image: cec,
-    content:
-      "A React application to help users visualise and minimise cash flow among multiple transactions.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiReact,
-        name: "React"
-      },
-      {
-        id: "icon-2",
-        icon: AiFillHtml5,
-        name: "HTML"
-      },
-      {
-        id: "icon-3",
-        icon: DiCss3,
-        name: "CSS"
-      }
-    ],
-  },
-  {
-    id: "project-15",
-    title: "Dairy Farmers of America (DFA)",
-    active: true,
-    github: "",
-    link: "https://www.dfamilk.com/",
-    image: dairyfarmers,
-    content:
-      "A React application to help users visualise and minimise cash flow among multiple transactions.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiReact,
-        name: "React"
-      },
-      {
-        id: "icon-2",
-        icon: AiFillHtml5,
-        name: "HTML"
-      },
-      {
-        id: "icon-3",
-        icon: DiCss3,
-        name: "CSS"
-      }
-    ],
-  },
-  {
-    id: "project-16",
-    title: "The Grass Outlet",
-    active: true,
-    github: "",
-    link: "https://thegrassoutlet.com/",
-    image: grassoutlet,
-    content:
-      "A React application to help users visualise and minimise cash flow among multiple transactions.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiReact,
-        name: "React"
-      },
-      {
-        id: "icon-2",
-        icon: AiFillHtml5,
-        name: "HTML"
-      },
-      {
-        id: "icon-3",
-        icon: DiCss3,
-        name: "CSS"
-      }
-    ],
-  },
-  {
-    id: "project-17",
-    title: "Fencing Direct",
-    active: true,
-    github: "",
-    link: "https://www.fencingdirect.com/",
-    image: fencingdirect,
-    content:
-      "A React application to help users visualise and minimise cash flow among multiple transactions.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiReact,
-        name: "React"
-      },
-      {
-        id: "icon-2",
-        icon: AiFillHtml5,
-        name: "HTML"
-      },
-      {
-        id: "icon-3",
-        icon: DiCss3,
-        name: "CSS"
-      }
-    ],
-  },
-  {
-    id: "project-18",
-    title: "Happy Bottoms",
-    active: true,
-    github: "",
-    link: "https://happybottoms.org/",
-    image: happybottoms,
-    content:
-      "A React application to help users visualise and minimise cash flow among multiple transactions.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiReact,
-        name: "React"
-      },
-      {
-        id: "icon-2",
-        icon: AiFillHtml5,
-        name: "HTML"
-      },
-      {
-        id: "icon-3",
-        icon: DiCss3,
-        name: "CSS"
-      }
-    ],
-  },
-  {
-    id: "project-19",
-    title: "Loadstar",
-    active: false,
-    github: "",
-    link: "https://loadstarusa.com/",
-    image: loadstar,
-    content:
-      "A React application to help users visualise and minimise cash flow among multiple transactions.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiReact,
-        name: "React"
-      },
-      {
-        id: "icon-2",
-        icon: AiFillHtml5,
-        name: "HTML"
-      },
-      {
-        id: "icon-3",
-        icon: DiCss3,
-        name: "CSS"
-      }
-    ],
-  },
-  {
-    id: "project-20",
-    title: "Hurricane Shutters Wholesale",
-    active: true,
-    github: "",
-    link: "https://www.hurricaneshutterswholesale.com/",
-    image: hurricaneshutters,
-    content:
-      "A React application to help users visualise and minimise cash flow among multiple transactions.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiReact,
-        name: "React"
-      },
-      {
-        id: "icon-2",
-        icon: AiFillHtml5,
-        name: "HTML"
-      },
-      {
-        id: "icon-3",
-        icon: DiCss3,
-        name: "CSS"
-      }
-    ],
-  },
-  {
-    id: "project-21",
-    title: "The Broad",
-    active: true,
-    github: "",
-    link: "https://www.thebroad.org/",
-    image: theboard,
-    content:
-      "A React application to help users visualise and minimise cash flow among multiple transactions.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiReact,
-        name: "React"
-      },
-      {
-        id: "icon-2",
-        icon: AiFillHtml5,
-        name: "HTML"
-      },
-      {
-        id: "icon-3",
-        icon: DiCss3,
-        name: "CSS"
-      }
-    ],
-  },
-  {
-    id: "project-22",
-    title: "LACMA",
-    active: true,
-    github: "",
-    link: "https://www.lacma.org/",
-    image: lacma,
-    content:
-      "A React application to help users visualise and minimise cash flow among multiple transactions.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiReact,
-        name: "React"
-      },
-      {
-        id: "icon-2",
-        icon: AiFillHtml5,
-        name: "HTML"
-      },
-      {
-        id: "icon-3",
-        icon: DiCss3,
-        name: "CSS"
-      }
-    ],
-  },
-  {
-    id: "project-23",
-    title: "Martin County",
-    active: true,
-    github: "",
-    link: "https://www.martin.fl.us/",
-    image: martincounty,
-    content:
-      "A React application to help users visualise and minimise cash flow among multiple transactions.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiReact,
-        name: "React"
-      },
-      {
-        id: "icon-2",
-        icon: AiFillHtml5,
-        name: "HTML"
-      },
-      {
-        id: "icon-3",
-        icon: DiCss3,
-        name: "CSS"
-      }
-    ],
-  },
-  {
-    id: "project-24",
-    title: "Gilcrease Museum",
-    active: true,
-    github: "",
-    link: "https://collections.gilcrease.org/",
-    image: gilcreasemuseum,
-    content:
-      "A React application to help users visualise and minimise cash flow among multiple transactions.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiReact,
-        name: "React"
-      },
-      {
-        id: "icon-2",
-        icon: AiFillHtml5,
-        name: "HTML"
-      },
-      {
-        id: "icon-3",
-        icon: DiCss3,
-        name: "CSS"
-      }
-    ],
-  },
-  {
-    id: "project-25",
-    title: "BizEquity",
-    active: true,
-    github: "",
-    link: "https://www.bizequity.com/",
-    image: bizequityweb,
-    content:
-      "A React application to help users visualise and minimise cash flow among multiple transactions.",
+    content: "An online platform offering professional development and education for urban planning and development.",
     stack: [
       {
         id: "icon-1",
@@ -1241,12 +830,416 @@ export const projects = [
   },
   {
     id: "project-10",
+    title: "YMCA of the North",
+    active: true,
+    github: "",
+    link: "https://www.ymcanorth.org/",
+    image: ymca,
+    content:
+      "A community-focused organization providing a range of programs and services to promote healthy living, youth development, and social responsibility.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiReact,
+        name: "React"
+      },
+      {
+        id: "icon-2",
+        icon: AiFillHtml5,
+        name: "HTML"
+      },
+      {
+        id: "icon-3",
+        icon: DiCss3,
+        name: "CSS"
+      }
+    ],
+  },
+  {
+    id: "project-11",
+    title: "Gray and Sons",
+    active: true,
+    github: "",
+    link: "https://www.grayandsons.com/",
+    image: graysonsjewelers,
+    content:
+      "A premier watch and jewelry store offering certified pre-owned luxury watches.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiReact,
+        name: "React"
+      },
+      {
+        id: "icon-2",
+        icon: AiFillHtml5,
+        name: "HTML"
+      },
+      {
+        id: "icon-3",
+        icon: DiCss3,
+        name: "CSS"
+      }
+    ],
+  },
+  {
+    id: "project-12",
+    title: "Green Plaque",
+    active: true,
+    github: "",
+    link: "https://www.greenplaque.com/",
+    image: greenplaque,
+    content: "The exclusive provider of certification display plaques for LEED Certified buildings.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiReact,
+        name: "React"
+      },
+      {
+        id: "icon-2",
+        icon: AiFillHtml5,
+        name: "HTML"
+      },
+      {
+        id: "icon-3",
+        icon: DiCss3,
+        name: "CSS"
+      }
+    ],
+  },
+  {
+    id: "project-13",
+    title: "Council for Exceptional Children (CEC)",
+    active: true,
+    github: "",
+    link: "https://exceptionalchildren.org/",
+    image: cec,
+    content:
+      "The largest professional association dedicated to advancing the success of children with exceptionalities.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiReact,
+        name: "React"
+      },
+      {
+        id: "icon-2",
+        icon: AiFillHtml5,
+        name: "HTML"
+      },
+      {
+        id: "icon-3",
+        icon: DiCss3,
+        name: "CSS"
+      }
+    ],
+  },
+  {
+    id: "project-14",
+    title: "Dairy Farmers of America (DFA)",
+    active: true,
+    github: "",
+    link: "https://www.dfamilk.com/",
+    image: dairyfarmers,
+    content:
+      "A leading dairy company that manufactures and markets renowned, high-quality dairy brands both nationally and internationally.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiReact,
+        name: "React"
+      },
+      {
+        id: "icon-2",
+        icon: AiFillHtml5,
+        name: "HTML"
+      },
+      {
+        id: "icon-3",
+        icon: DiCss3,
+        name: "CSS"
+      }
+    ],
+  },
+  {
+    id: "project-15",
+    title: "The Grass Outlet",
+    active: true,
+    github: "",
+    link: "https://thegrassoutlet.com/",
+    image: grassoutlet,
+    content:
+      "A trusted provider of high-quality grass shipments, delivering professional service to customers.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiReact,
+        name: "React"
+      },
+      {
+        id: "icon-2",
+        icon: AiFillHtml5,
+        name: "HTML"
+      },
+      {
+        id: "icon-3",
+        icon: DiCss3,
+        name: "CSS"
+      }
+    ],
+  },
+  {
+    id: "project-16",
+    title: "Fencing Direct",
+    active: true,
+    github: "",
+    link: "https://www.fencingdirect.com/",
+    image: fencingdirect,
+    content:
+      "A disruptive force in the fencing industry, partnering with Orases to bring high-quality fence products to a national online audience, challenging traditional big box stores and local shops.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiReact,
+        name: "React"
+      },
+      {
+        id: "icon-2",
+        icon: AiFillHtml5,
+        name: "HTML"
+      },
+      {
+        id: "icon-3",
+        icon: DiCss3,
+        name: "CSS"
+      }
+    ],
+  },
+  {
+    id: "project-17",
+    title: "Happy Bottoms",
+    active: true,
+    github: "",
+    link: "https://happybottoms.org/",
+    image: happybottoms,
+    content:
+      "A Kansas City-based non-profit diaper bank dedicated to supporting individuals and families in need by providing essential diaper supplies.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiReact,
+        name: "React"
+      },
+      {
+        id: "icon-2",
+        icon: AiFillHtml5,
+        name: "HTML"
+      },
+      {
+        id: "icon-3",
+        icon: DiCss3,
+        name: "CSS"
+      }
+    ],
+  },
+  {
+    id: "project-18",
+    title: "Loadstar",
+    active: false,
+    github: "",
+    link: "https://loadstarusa.com/",
+    image: loadstar,
+    content:
+      "A provider of product handling services across industries such as refineries, chemical plants, barge lines, and terminals.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiReact,
+        name: "React"
+      },
+      {
+        id: "icon-2",
+        icon: AiFillHtml5,
+        name: "HTML"
+      },
+      {
+        id: "icon-3",
+        icon: DiCss3,
+        name: "CSS"
+      }
+    ],
+  },
+  {
+    id: "project-19",
+    title: "Hurricane Shutters Wholesale",
+    active: true,
+    github: "",
+    link: "https://www.hurricaneshutterswholesale.com/",
+    image: hurricaneshutters,
+    content:
+      "A leading provider of high-quality hurricane shutters, offering reliable protection for homes and businesses.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiReact,
+        name: "React"
+      },
+      {
+        id: "icon-2",
+        icon: AiFillHtml5,
+        name: "HTML"
+      },
+      {
+        id: "icon-3",
+        icon: DiCss3,
+        name: "CSS"
+      }
+    ],
+  },
+  {
+    id: "project-20",
+    title: "The Broad",
+    active: true,
+    github: "",
+    link: "https://www.thebroad.org/",
+    image: thebroad,
+    content:
+      "A contemporary art museum in downtown Los Angeles, founded by philanthropists Eli and Edythe Broad, showcasing a diverse collection of modern art.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiReact,
+        name: "React"
+      },
+      {
+        id: "icon-2",
+        icon: AiFillHtml5,
+        name: "HTML"
+      },
+      {
+        id: "icon-3",
+        icon: DiCss3,
+        name: "CSS"
+      }
+    ],
+  },
+  {
+    id: "project-21",
+    title: "LACMA",
+    active: true,
+    github: "",
+    link: "https://www.lacma.org/",
+    image: lacma,
+    content:
+      "The largest art museum in the western United States, housing over 130,000 objects that span the history of art from antiquity to the present, representing global cultures.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiReact,
+        name: "React"
+      },
+      {
+        id: "icon-2",
+        icon: AiFillHtml5,
+        name: "HTML"
+      },
+      {
+        id: "icon-3",
+        icon: DiCss3,
+        name: "CSS"
+      }
+    ],
+  },
+  {
+    id: "project-22",
+    title: "Martin County",
+    active: true,
+    github: "",
+    link: "https://www.martin.fl.us/",
+    image: martincounty,
+    content:
+      "A vibrant and diverse community in Florida, offering a wide range of services and resources to residents and visitors.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiReact,
+        name: "React"
+      },
+      {
+        id: "icon-2",
+        icon: AiFillHtml5,
+        name: "HTML"
+      },
+      {
+        id: "icon-3",
+        icon: DiCss3,
+        name: "CSS"
+      }
+    ],
+  },
+  {
+    id: "project-23",
+    title: "Gilcrease Museum",
+    active: true,
+    github: "",
+    link: "https://collections.gilcrease.org/",
+    image: gilcreasemuseum,
+    content:
+      "Home to the world’s largest and most comprehensive collection of art and artifacts of the American West.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiReact,
+        name: "React"
+      },
+      {
+        id: "icon-2",
+        icon: AiFillHtml5,
+        name: "HTML"
+      },
+      {
+        id: "icon-3",
+        icon: DiCss3,
+        name: "CSS"
+      }
+    ],
+  },
+  {
+    id: "project-24",
+    title: "BizEquity",
+    active: true,
+    github: "",
+    link: "https://www.bizequity.com/",
+    image: bizequityweb,
+    content:
+      "An online platform that helps business owners, advisors, and financial professionals determine the value of a business through comprehensive valuation tools.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiReact,
+        name: "React"
+      },
+      {
+        id: "icon-2",
+        icon: AiFillHtml5,
+        name: "HTML"
+      },
+      {
+        id: "icon-3",
+        icon: DiCss3,
+        name: "CSS"
+      }
+    ],
+  },
+  {
+    id: "project-25",
     title: "Portfolio",
     active: true,
     github: "https://github.com/danzajac/portfolio",
     link: "https://danielzajac.netlify.app/",
     image: portfolio,
-    content: "Personal portfolio website with React and Tailwind CSS.",
+    content: "Personal portfolio website built with React and Tailwind CSS.",
     stack: [
       {
         id: "icon-1",
