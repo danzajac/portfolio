@@ -100,7 +100,7 @@ import { DiCss3, DiMsqlServer } from "react-icons/di";
 
 import { TbBrandNextjs } from "react-icons/tb";
 
-export const resumeLink = "https://drive.google.com/file/d/1Jhqyp7InLeMBzGl16KqC67j9Wnnx1THK/view?usp=sharing";
+export const resumeLink = "https://drive.google.com/file/d/1SB6wXeGh7U3QqhLiKoxQpLkpQsIx0iaH/view?usp=sharing";
 export const repoLink = "https://github.com/danzajac/portfolio";
 
 export const callToAction = "https://www.linkedin.com/in/daniel-zajac-32785727a/";
