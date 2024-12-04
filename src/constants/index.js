@@ -4,11 +4,7 @@ import {
   planetizen,
   gdsc,
   bizequity,
-  ecell,
-  genesis,
   portfolio,
-  publiclab,
-  zulip,
   mha,
   davidsbridal,
   sportsthread,
@@ -18,15 +14,9 @@ import {
   healthpiper,
   skinactives,
   confidential,
-  devfolio,
   uop,
   ethglobal,
-  polkadot,
-  lightspeed,
-  dennisivy,
   manipal,
-  icon,
-  ethforall,
   ymca,
   graysonsjewelers,
   greenplaque,
@@ -178,75 +168,24 @@ export const achievements = [
   {
     id: "a-1",
     icon: ethglobal,
-    event: "ETHIndia'22 | World's Largest Ethereum Hackathon",
+    event: "World's Largest Ethereum Hackathon",
     position: "Winner",
     content1: "Top 12 winners among 20k+ registrations",
     content2: "One of Polygon's Best Public Goods",
     content3: "Best Module on Biconomy SDK",
-    article: "https://www.thehindu.com/news/cities/Mangalore/nitk-iiit-delhi-team-makes-it-to-top-12-winners-in-ethindia-22/article66238923.ece",
-    project: "https://devfolio.co/projects/chargeswap-3527",
-    youtube: "https://youtu.be/9rieTya8Yds?t=3908",
+    article: "",
+    project: "",
+    youtube: "",
   },
   {
     id: "a-2",
-    icon: polkadot,
-    event: "Polkadot Hackathon: Europe Edition",
-    position: "2nd Runner Up in the ink! Smart Contract Category",
-    content1: "Built GreenTrust offering a novel solution for obtaining certification in organic farming.",
-    content2: "",
-    content3: "",
-    github: "https://github.com/pranav2305/GreenTrust",
-  },
-  {
-    id: "a-3",
-    icon: lightspeed,
-    event: "Warpspeed by Lightspeed",
-    position: "1st Runner Up",
-    content1: "1st Runner Up Overall by Lightspeed among 107 hackers",
-    content2: "Top 3 projects using Replit",
-    content3: "1st Runner Up by Amazon Web Services (AWS)",
-    article: "https://shorturl.at/fhjsT",
-  },
-  {
-    id: "a-4",
-    icon: dennisivy,
-    event: "September Hackathon by Dennis Ivy",
-    position: "Winner",
-    content1: "Rated the best portfolio website among 450+ participants across the globe.",
-    content2: "",
-    content3: "",
-    youtube: "https://www.youtube.com/watch?v=X2473En3h_o&t=5278s",
-    project: "https://danielzajac.netlify.app/",
-  },
-  {
-    id: "a-5",
     icon: manipal,
     event: "Manipal Hackathon'22",
     position: "Consolation Prize",
-    content1: "Top 10 among 500+ teams across India",
+    content1: "Top 10 among 500+ teams",
     content2: "Developed a cross-platform mobile application to address the problem of social cohesion.",
     content3: "",
-    article: "https://shorturl.at/exEIQ",
-  },
-  {
-    id: "a-6",
-    icon: icon,
-    event: "ICON Hyperbuild Hackathon",
-    position: "Honorable Mention",
-    content1: "Honorable Mention among 655 participants across the globe in a 3 month-long online hackathon.",
-    content2: "",
-    content3: "",
-    project: "https://devpost.com/software/green-trust-xj2w6g",
-  },
-  {
-    id: "a-7",
-    icon: ethforall,
-    event: "ETHForAll 2023",
-    position: "Top 3 Superfluid Projects",
-    content1: "Bounty winners among 430 projects in ETHGlobal's largest online hackathon.",
-    content2: "",
-    content3: "",
-    project: "https://devfolio.co/projects/green-trust-ed14",
+    article: "",
   },
 ];
 
@@ -568,13 +507,14 @@ export const experiences = [
 // Add information about all the projects to be listed out in your portfolio
 export const projects = [
   {
-    id: "project-3",
+    id: "project-1",
     title: "DAVID’S BRIDAL",
+    active: true,
     github: "",
     link: "https://www.davidsbridal.com/",
     image: davidsbridal,
     content:
-      "A Blockchain-based EV-Battery swapping solution - winning project at ETHIndia'22, the world's largest Ethereum Hackathon",
+      "A Blockchain-based EV-Battery swapping solution - winning project at ETH'22, the world's largest Ethereum Hackathon",
     stack: [
       {
         id: "icon-1",
@@ -614,8 +554,9 @@ export const projects = [
     ],
   },
   {
-    id: "project-1",
+    id: "project-2",
     title: "HealthPiper",
+    active: true,
     github: "",
     link: "https://healthpiper.com/",
     image: healthpiper,
@@ -650,8 +591,9 @@ export const projects = [
     ],
   },
   {
-    id: "project-2",
+    id: "project-3",
     title: "Skin Actives Scientific",
+    active: true,
     github: "",
     link: "https://skinactives.com/",
     image: skinactives,
@@ -693,6 +635,7 @@ export const projects = [
   {
     id: "project-4",
     title: "Sports Thread",
+    active: true,
     github: "",
     link: "https://sportsthread.com/",
     image: sportsthread,
@@ -729,6 +672,7 @@ export const projects = [
   {
     id: "project-5",
     title: "AddOn Network",
+    active: true,
     github: "",
     link: "https://www.addonnetworks.com/",
     image: addonnetworks,
@@ -755,6 +699,7 @@ export const projects = [
   {
     id: "project-6",
     title: "MHA of Frederick County",
+    active: true,
     github: "",
     link: "https://fcmha.org/",
     image: mha,
@@ -781,6 +726,7 @@ export const projects = [
   {
     id: "project-7",
     title: "Keep A Breast",
+    active: true,
     github: "",
     link: "https://www.keep-a-breast.org/",
     image: keepabreast,
@@ -822,6 +768,7 @@ export const projects = [
   {
     id: "project-8",
     title: "Kennedy Wilson",
+    active: true,
     github: "",
     link: "https://www.kennedywilson.com/",
     image: kennedywilson,
@@ -863,6 +810,7 @@ export const projects = [
   {
     id: "project-9",
     title: "Planetizen Courses",
+    active: true,
     github: "",
     link: "https://courses.planetizen.com/",
     image: planetizen,
@@ -887,33 +835,9 @@ export const projects = [
     ],
   },
   {
-    id: "project-10",
-    title: "Portfolio",
-    github: "https://github.com/danzajac/portfolio",
-    link: "https://danielzajac.netlify.app/",
-    image: portfolio,
-    content: "Personal portfolio website with React and Tailwind CSS.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiReact,
-        name: "React"
-      },
-      {
-        id: "icon-2",
-        icon: SiTailwindcss,
-        name: "Tailwind CSS"
-      },
-      {
-        id: "icon-3",
-        icon: AiFillHtml5,
-        name: "HTML"
-      },
-    ],
-  },
-  {
     id: "project-11",
     title: "YMCA of the North",
+    active: true,
     github: "",
     link: "https://www.ymcanorth.org/",
     image: ymca,
@@ -940,6 +864,7 @@ export const projects = [
   {
     id: "project-12",
     title: "Gray and Sons",
+    active: true,
     github: "",
     link: "https://www.grayandsons.com/",
     image: graysonsjewelers,
@@ -966,6 +891,7 @@ export const projects = [
   {
     id: "project-13",
     title: "Green Plaque",
+    active: true,
     github: "",
     link: "https://www.greenplaque.com/",
     image: greenplaque,
@@ -992,6 +918,7 @@ export const projects = [
   {
     id: "project-14",
     title: "Council for Exceptional Children (CEC)",
+    active: true,
     github: "",
     link: "https://exceptionalchildren.org/",
     image: cec,
@@ -1018,6 +945,7 @@ export const projects = [
   {
     id: "project-15",
     title: "Dairy Farmers of America (DFA)",
+    active: true,
     github: "",
     link: "https://www.dfamilk.com/",
     image: dairyfarmers,
@@ -1044,6 +972,7 @@ export const projects = [
   {
     id: "project-16",
     title: "The Grass Outlet",
+    active: true,
     github: "",
     link: "https://thegrassoutlet.com/",
     image: grassoutlet,
@@ -1070,6 +999,7 @@ export const projects = [
   {
     id: "project-17",
     title: "Fencing Direct",
+    active: true,
     github: "",
     link: "https://www.fencingdirect.com/",
     image: fencingdirect,
@@ -1096,6 +1026,7 @@ export const projects = [
   {
     id: "project-18",
     title: "Happy Bottoms",
+    active: true,
     github: "",
     link: "https://happybottoms.org/",
     image: happybottoms,
@@ -1122,6 +1053,7 @@ export const projects = [
   {
     id: "project-19",
     title: "Loadstar",
+    active: false,
     github: "",
     link: "https://loadstarusa.com/",
     image: loadstar,
@@ -1148,6 +1080,7 @@ export const projects = [
   {
     id: "project-20",
     title: "Hurricane Shutters Wholesale",
+    active: true,
     github: "",
     link: "https://www.hurricaneshutterswholesale.com/",
     image: hurricaneshutters,
@@ -1174,6 +1107,7 @@ export const projects = [
   {
     id: "project-21",
     title: "The Broad",
+    active: true,
     github: "",
     link: "https://www.thebroad.org/",
     image: theboard,
@@ -1200,6 +1134,7 @@ export const projects = [
   {
     id: "project-22",
     title: "LACMA",
+    active: true,
     github: "",
     link: "https://www.lacma.org/",
     image: lacma,
@@ -1226,6 +1161,7 @@ export const projects = [
   {
     id: "project-23",
     title: "Martin County",
+    active: true,
     github: "",
     link: "https://www.martin.fl.us/",
     image: martincounty,
@@ -1252,6 +1188,7 @@ export const projects = [
   {
     id: "project-24",
     title: "Gilcrease Museum",
+    active: true,
     github: "",
     link: "https://collections.gilcrease.org/",
     image: gilcreasemuseum,
@@ -1278,6 +1215,7 @@ export const projects = [
   {
     id: "project-25",
     title: "BizEquity",
+    active: true,
     github: "",
     link: "https://www.bizequity.com/",
     image: bizequityweb,
@@ -1301,6 +1239,32 @@ export const projects = [
       }
     ],
   },
+  {
+    id: "project-10",
+    title: "Portfolio",
+    active: true,
+    github: "https://github.com/danzajac/portfolio",
+    link: "https://danielzajac.netlify.app/",
+    image: portfolio,
+    content: "Personal portfolio website with React and Tailwind CSS.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiReact,
+        name: "React"
+      },
+      {
+        id: "icon-2",
+        icon: SiTailwindcss,
+        name: "Tailwind CSS"
+      },
+      {
+        id: "icon-3",
+        icon: AiFillHtml5,
+        name: "HTML"
+      },
+    ],
+  },
 ];
 
 // Add links to blogs here
@@ -1310,7 +1274,7 @@ export const blogPosts = [
     title: "Blog Post 01 - Title",
     link: "#",
     date: new Date().toLocaleDateString(), // Can be edited to any string format
-    image: "https://via.placeholder.com/600/92c952",
+    image: "",
     tags: [
       {
         id: "tag-1",
@@ -1331,7 +1295,7 @@ export const blogPosts = [
     title: "Blog Post 02 - Title",
     link: "#",
     date: new Date().toLocaleDateString(),
-    image: "https://via.placeholder.com/600/d32776",
+    image: "",
     tags: [
       {
         id: "tag-1",
@@ -1352,7 +1316,7 @@ export const blogPosts = [
     title: "Blog Post 03 - Title",
     link: "#",
     date: new Date().toLocaleDateString(),
-    image: "https://via.placeholder.com/600/771796",
+    image: "",
     tags: [
       {
         id: "tag-1",
@@ -1393,23 +1357,6 @@ export const stats = [
 export const extraCurricular = [
   {
     id: 1,
-    organisation: "Devfolio",
-    title: "UniDAO Lead",
-    duration: "December 2021 - Present",
-    content: [
-      {
-        text: "Selected among 5 students across the country to lead the initiative and grow the culture of Blockchain and Ethereum, powered by Devfolio.",
-        link: "https://www.linkedin.com/feed/update/urn:li:activity:7097977924686942209/",
-      },
-      {
-        text: "Led a cohort of 37 selected students over 6 weeks to learn and build in the Ethereum ecosystem.",
-        link: "https://www.linkedin.com/feed/update/urn:li:activity:7095310520282480641/",
-      },
-    ],
-    logo: devfolio,
-  },
-  {
-    id: 2,
     organisation: "Google Developer Student Club, NITK",
     title: "Co-Chair",
     duration: "December 2021 - Present",
@@ -1420,44 +1367,10 @@ export const extraCurricular = [
       },
       {
         text: "Co-designed and developed the official website of Incident, NITK with 15K+ visitors",
-        link: "https://incident.nitk.ac.in/",
+        link: "",
       },
     ],
     logo: gdsc,
-  },
-  {
-    id: 3,
-    organisation: "Genesis, NITK",
-    title: "Competitions Head",
-    duration: "Sep 2021 - Present",
-    content: [
-      {
-        text: "Qualified for the nationals of Indian Hip Hop Dance Championship",
-        link: "",
-      },
-      {
-        text: "Won 7 inter-college solo dance competitions",
-        link: "",
-      },
-    ],
-    logo: genesis,
-  },
-  {
-    id: 5,
-    organisation: "E-Cell, NITK",
-    title: "Executive Member",
-    duration: "Sep 2021 - Apr 2022",
-    content: [
-      {
-        text: "Organised the season 3 of the E-Cell NITK Podcast",
-        link: "https://www.youtube.com/watch?v=uA-Yrk6bVDc",
-      },
-      {
-        text: "Member of the Sponsorship and E-Talks team for E-Summit'22",
-        link: "",
-      },
-    ],
-    logo: ecell,
   },
 ];
 
@@ -1477,6 +1390,16 @@ export const socialMedia = [
     id: "social-media-3",
     icon: AiFillMail,
     link: "mailto:danzajac10@gmail.com",
+  },
+  {
+    id: "social-media-4",
+    icon: AiOutlineTwitter,
+    link: "",
+  },
+  {
+    id: "social-media-5",
+    icon: AiFillInstagram,
+    link: "",
   },
 ];
 
