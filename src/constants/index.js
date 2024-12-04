@@ -441,9 +441,9 @@ export const skills = [
 // Add your current/past professional work experience here
 export const experiences = [
   {
-    organisation: "Oracle, India",
+    organisation: "T-Mobile",
     logo: oracle,
-    link: "https://www.oracle.com/in/",
+    link: "https://www.t-mobile.com/",
     positions: [
       {
         title: "Member of Technical Staff - 1",
@@ -472,9 +472,9 @@ export const experiences = [
     ],
   },
   {
-    organisation: "Averlon",
+    organisation: "Confidential",
     logo: averlon,
-    link: "https://averlon.ai/",
+    link: "https://www.linkedin.com/company/goconfidentia",
     positions: [
       {
         title: "Software Developer Intern",
@@ -493,9 +493,9 @@ export const experiences = [
     ],
   },
   {
-    organisation: "IRIS, NITK",
+    organisation: "BizEquity",
     logo: iris,
-    link: "https://iris.nitk.ac.in/about_us",
+    link: "https://www.bizequity.com/",
     positions: [
       {
         title: "Tech Lead",
@@ -542,7 +542,24 @@ export const experiences = [
         ],
       },
     ],
-  }
+  },
+  {
+    organisation: "PNC",
+    logo: iris,
+    link: "https://www.pnc.com/",
+    positions: [
+      {
+        title: "Senior PHP/Drupal Developer",
+        duration: "Jan 2013 - Oct 2014",
+        content: [
+          {
+            text: "",
+            link: "",
+          },
+        ],
+      },
+    ],
+  },
 ];
 
 // Add information about all the projects to be listed out in your portfolio
