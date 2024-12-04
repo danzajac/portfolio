@@ -3,7 +3,7 @@ import {
   cluboard,
   cash_flow,
   gdsc,
-  iris,
+  bizequity,
   ecell,
   genesis,
   portfolio,
@@ -14,10 +14,10 @@ import {
   placeicon,
   recruitment,
   huntly,
-  oracle,
+  tmobile,
   comicify_ai,
   greentrust,
-  averlon,
+  confidential,
   devfolio,
   pba,
   ethglobal,
@@ -441,30 +441,42 @@ export const skills = [
 // Add your current/past professional work experience here
 export const experiences = [
   {
-    organisation: "Oracle, India",
-    logo: oracle,
-    link: "https://www.oracle.com/in/",
+    organisation: "T-Mobile",
+    logo: tmobile,
+    link: "https://www.t-mobile.com/",
     positions: [
       {
-        title: "Member of Technical Staff - 1",
-        duration: "Jul 2024 - Present",
+        title: "Senior Developer",
+        duration: "Mar 2021 - Present",
         content: [
           {
-            text: "Working in the DBaaS Control Plane team in the Database Unit.",
+            text: "Design and implement scalable solutions for high-load applications.",
+            link: "",
+          },
+          {
+            text: "Review code with a focus on improving quality and maintainability.",
+            link: "",
+          },
+          {
+            text: "Partner with product managers, designers, and DevOps teams to define requirements and deliver end-to-end solutions.",
             link: "",
           },
         ],
       },
       {
-        title: "Member of Technical Staff Intern",
-        duration: "May 2023 - Jul 2023",
+        title: "PHP/Laravel VueJS Developer",
+        duration: "Nov 2019 - Mar 2021",
         content: [
           {
-            text: "Worked with the Exadata Cloud@Customer team in the Database Unit.",
+            text: "Develop a state picker system with PHP/React.js that allows for Google Map display of T-Mobile stores and other information as a pin by integrating Google Map.",
             link: "",
           },
           {
-            text: "Wrote APIs in Java to help gracefully migrate a running ExaC@C infrastructure to a new region in the case of a region failure",
+            text: "Write UAT Laravel/PHPUnit tests for T-mobile internal application and support (public facing) payment application.",
+            link: "",
+          },
+          {
+            text: "Follow design from UI/UX team to develop a search component with Laravel/Vue.js for main pages search interacting with services and implementing conditions for search result display based on the page the user is searching from.",
             link: ""
           }
         ],
@@ -472,77 +484,69 @@ export const experiences = [
     ],
   },
   {
-    organisation: "Averlon",
-    logo: averlon,
-    link: "https://averlon.ai/",
+    organisation: "Confidential",
+    logo: confidential,
+    link: "https://www.linkedin.com/company/goconfidentia",
     positions: [
       {
-        title: "Software Developer Intern",
-        duration: "Sept 2023 - Feb 2024",
+        title: "PHP Developer",
+        duration: "Feb 2017 - Oct 2019",
         content: [
           {
-            text: "Added support for the discoverability of Microsoft Azure assets utilising Go and Gremlin.",
+            text: "Developed online applications using Linux, Apache, MySQL, and PHP (LAMP) technologies.",
             link: ""
           },
           {
-            text: "Extended support for Azure for reachability analysis of assets for cloud security posture management.",
+            text: "Worked on modern web development technologies including HTML, CSS, JavaScript, XML, XSLT, Python, Ruby, PHP, REST, jQuery, React js, WordPress, etc.",
             link: ""
-          }
+          },
+          {
+            text: "Implemented SOA architecture with web services using SOAP, WSDL and XML.",
+            link: ""
+          },
         ],
       },
     ],
   },
   {
-    organisation: "IRIS, NITK",
-    logo: iris,
-    link: "https://iris.nitk.ac.in/about_us",
+    organisation: "BizEquity",
+    logo: bizequity,
+    link: "https://www.bizequity.com/",
     positions: [
       {
         title: "Tech Lead",
-        duration: "Apr 2023 - Apr 2024",
+        duration: "Jun 2016 - Feb 2017",
         content: [
           {
-            text: "Led a team of 40+ students in digitizing administrative, academic and alumni-related work.",
+            text: "Lead the design and architecture of applications or systems.",
             link: "",
           },
           {
-            text: "Managed all phases of Software Development Life Cycle (SDLC) for 15+ modules.",
-            link: "",
-          },
-        ],
-      },
-      {
-        title: "Web Lead",
-        duration: "Apr 2022 - Present",
-        content: [
-          {
-            text: "Managed a team of 6 student developers while also overlooking multiple modules.",
+            text: "Researching and introducing tools and frameworks that improve team productivity.",
             link: "",
           },
         ],
       },
       {
-        title: "Web Developer",
-        duration: "Nov 2021 - Apr 2022",
+        title: "Software Engineer",
+        duration: "Dec 2014 - May 2016",
         content: [
           {
-            text: "Added Conditional Fields support to the Forms Module.",
+            text: "Accomplished developing web portal for Evaluation of private businesses.",
             link: "",
           },
-        ],
-      },
-      {
-        title: "Web Developer Intern",
-        duration: "Jun 2021 - Oct 2021",
-        content: [
           {
-            text: "Developed a multi-role approval flow system to facilitate data collection and display on the Institute's Department Websites.",
+            text: "Designed and built new interaction patterns (navigation, UI widgets, validation, error messages, animation etc.) using AngularJS, CSS3, Bootstrap, JSON and other JS plugins.",
+            link: "",
+          },
+          {
+            text: "Collaborated with product managers and software engineers to implement new product features and enhancements.",
             link: "",
           },
         ],
       },
     ],
-  }
+  },
 ];
 
 // Add information about all the projects to be listed out in your portfolio
@@ -1033,19 +1037,6 @@ export const extraCurricular = [
     logo: genesis,
   },
   {
-    id: 4,
-    organisation: "IRIS, NITK",
-    title: "Tutor",
-    duration: "Jan 2022 - Jan 2022",
-    content: [
-      {
-        text: "Mentored 150+ students in a month-long Web Development and Ruby on Rails Bootcamp",
-        link: "https://github.com/IRIS-NITK/IRIS-RoR-Bootcamp-2021",
-      },
-    ],
-    logo: iris,
-  },
-  {
     id: 5,
     organisation: "E-Cell, NITK",
     title: "Executive Member",
@@ -1087,7 +1078,7 @@ export const socialMedia = [
 export const aboutMe = {
     name: "Daniel Zajac",
     githubUsername: 'danzajac',
-    tagLine: "MTS-1 @Oracle | ex-SDE Intern @Averlon | ex-Tech Lead @IRIS,NITK | ETHIndia'22 Winner | NITK'24",
+    tagLine: "Sr.Dev. @T-Mobile | ex-SSE @Confidential | ex-Tech Lead @BizEquity",
     intro: "Software Developer from the US, always refining his craft or envisioning the future of tech."
 }
 
