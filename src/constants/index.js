@@ -134,10 +134,10 @@ import { DiCss3 } from "react-icons/di";
 
 import { TbBrandNextjs } from "react-icons/tb";
 
-export const resumeLink = "https://drive.google.com/file/d/1SB6wXeGh7U3QqhLiKoxQpLkpQsIx0iaH/view?usp=sharing";
+export const resumeLink = "Daniel_Zajac_SeniorSoftwareEngineer.pdf";
 export const repoLink = "https://github.com/danzajac/portfolio";
 
-export const callToAction = "https://www.linkedin.com/in/daniel-zajac-32785727a/";
+export const callToAction = "mailto:danzajac10@gmail.com";
 
 export const navLinks = [
   {
@@ -1749,7 +1749,7 @@ export const socialMedia = [
   {
     id: "social-media-1",
     icon: AiFillLinkedin,
-    link: "https://www.linkedin.com/in/daniel-zajac-32785727a/",
+    link: "https://www.linkedin.com/in/daniel-zajac-dev",
   },
   {
     id: "social-media-2",
