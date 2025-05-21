@@ -2,18 +2,15 @@
 
 <img width="945" alt="image" src="./src/assets/hero.png">
 
-### Deployed link: https://danielzajac.netlify.app/
+### Deployed link: https://portfolio-daniel-zajac.vercel.app/
 
 ## Table of Contents 📁
 
 1. [Tech Stack](#tech-stack-)
 2. [Implemented Sections](#implemented-sections-%EF%B8%8F)
 3. [Use as a theme](#using-as-a-theme-)
-4. [Contributing](#contributing-)
-5. [Installation Guide](#installation-guide-)
-6. [Sample Git Workflow](#sample-git-workflow)
-7. [References & Inspirations](#references--inspirations-)
-8. [Illustrations](#illustrations-%EF%B8%8F)
+4. [Installation Guide](#installation-guide-)
+5. [Sample Git Workflow](#sample-git-workflow)
    <br>
 
 ## Tech Stack 🧰
@@ -39,9 +36,6 @@
 - Skills & Experience
 - Education
 - Projects
-- Blogs
-- Open Source Contributions
-- Extra Curricular
 - Contact Me
 
 ## Using as a theme ✨
@@ -70,32 +64,9 @@ Three main things have to be changed to customize it your way (please open an is
 - Add any assets (images) to the [`assets`](https://github.com/danzajac/portfolio/tree/main/src/assets) folder.
 - Import the asset and export it using the[`/src/assets/index.js`](https://github.com/danzajac/portfolio/blob/main/src/assets/index.js) file.
 
-4. Creating a .env file
-
-Environment variables store sensitive information that vary for the user and should not be checked into source control.
-One such example is the GitHub personal access token to automatically fetch the Open Source Contributions.
-
-- A personal access token can be created to use the GitHub API following the official guide from GitHub - [GitHub Docs - Creating  personal Access Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic)
-
-The environment variables are to be added onto the .env file
-
-- Create a file in your local dev environment to hold your environment variables called `.env` in the root project folder.
-- Copy over the contents of the `.env.example` example file into the `.env` file.
-- Replace the value of the environment variable value(s) with the values you want the environment variables to hold, for e.g. `VITE_GH_TOKEN=YOUR_GITHUB_TOKEN` where `YOUR_GITHUB_TOKEN` is the personal access token you generated earlier.
-
 ### Deployment
 
-You can use [Netlify](https://docs.netlify.com/) to deploy your site. Follow the instructions in their docs to do so.
-
-Since we have env variables, make sure to add them from the Netlify UI as well. [Link to Guide](https://docs.netlify.com/environment-variables/get-started/#site-environment-variables)
-
-## Contributing 🏆
-
-We welcome contributions in the form of pull requests, issues and documentation. Feel free to help us in any way! ❤️
-
-- Please read and abide by our [Code of Conduct](https://github.com/danzajac/portfolio/blob/main/CODE_OF_CONDUCT.md);
-our community aspires to be a respectful place both during online and in-person interactions.
-- Please follow the [installation guide](https://github.com/danzajac/portfolio/blob/main/readme.md#installation-guide) and the [sample git workflow](https://github.com/danzajac/portfolio/blob/main/readme.md#sample-git-workflow) to contribute.
+You can use [Vercel](https://vercel.com/docs) to deploy your site. Follow the instructions in their docs to do so.
 
 ## Installation Guide 🧑‍💻
 
@@ -126,17 +97,5 @@ our community aspires to be a respectful place both during online and in-person 
 - [Resolve merge conflicts](https://help.github.com/articles/resolving-a-merge-conflict-from-the-command-line/) (if any)
 - Push your feature branch upto your remote repo with `git push origin <name-of-your-feature-branch>`
 - [Submit a Pull Request](https://docs.github.com/en/get-started/quickstart/contributing-to-projects#making-a-pull-request) to the main branch.
-- After any questions or changes have been resolved, your contribution would be merged in!
 
 #### If you found this repo helpful in anyway, considering giving it a star - it would mean the world to me! 🌟
-
-## References & Inspirations 👏
-
-- [JavaScript Mastery](https://youtu.be/_oO4Qi5aVZs)
-- [Developerfolio](https://developerfolio.js.org/)
-- [MasterPortfolio](https://github.com/ashutosh1919/masterPortfolio)
-
-## Illustrations 🖼️
-
-- [Coding Lottie](https://lottiefiles.com/90189-coding) by Yamesh Sai Balaji
-- [Quiz Mode Lottie](https://lottiefiles.com/92377-quiz-mode) by SenecaDan

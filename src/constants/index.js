@@ -1,32 +1,37 @@
 import {
   uod,
-  cluboard,
-  cash_flow,
+  kennedywilson,
+  planetizen,
   gdsc,
   bizequity,
-  ecell,
-  genesis,
   portfolio,
-  publiclab,
-  zulip,
-  cdc,
-  chargeswap,
-  placeicon,
-  recruitment,
-  huntly,
+  mha,
+  davidsbridal,
+  sportsthread,
+  addonnetworks,
+  keepabreast,
   tmobile,
-  comicify_ai,
-  greentrust,
+  healthpiper,
+  skinactives,
   confidential,
-  devfolio,
   uop,
   ethglobal,
-  polkadot,
-  lightspeed,
-  dennisivy,
   manipal,
-  icon,
-  ethforall
+  ymca,
+  graysonsjewelers,
+  greenplaque,
+  cec,
+  dairyfarmers,
+  grassoutlet,
+  fencingdirect,
+  happybottoms,
+  loadstar,
+  hurricaneshutters,
+  thebroad,
+  lacma,
+  martincounty,
+  gilcreasemuseum,
+  bizequityweb,
 } from "../assets";
 
 import {
@@ -40,7 +45,6 @@ import {
 } from "react-icons/ai";
 
 import {
-  SiDjango,
   SiJavascript,
   SiBootstrap,
   SiReact,
@@ -50,7 +54,6 @@ import {
   SiPython,
   SiCsharp,
   SiTypescript,
-  SiRubyonrails,
   SiJquery,
   SiVisualstudiocode,
   SiPostman,
@@ -58,19 +61,9 @@ import {
   SiMysql,
   SiSolidity,
   SiLaravel,
-  SiChartdotjs,
   SiVite,
-  SiArduino,
-  SiWeb3Dotjs,
-  SiIpfs,
   SiDotnet,
-  SiTwilio,
-  SiFlutter,
-  SiReplit,
-  SiFlask,
-  SiFigma,
   SiGooglemaps,
-  SiOpenai,
   SiGooglecloud,
   SiNextdotjs,
   SiMicrosoftazure,
@@ -81,22 +74,63 @@ import {
   SiRedux,
   SiMongodb,
   SiPostgresql,
-  SiLinux
+  SiLinux,
+  SiAzuredevops,
+  SiDynamics365,
+  SiVuedotjs,
+  SiMailchimp,
+  SiUikit,
+  SiGoogleanalytics,
+  SiBigcommerce,
+  SiNginx,
+  SiCraftcms,
+  SiSalesforce,
+  SiApache,
+  SiAmazonaws,
+  SiAwslambda,
+  SiFirebase,
+  SiMariadb,
+  SiPreact,
+  SiMixpanel,
+  SiVimeo,
+  SiGoogleoptimize,
+  SiCloudflare,
+  SiBackbonedotjs,
+  SiLivechat,
+  SiAdroll,
+  SiPwa,
+  SiWebpack,
+  SiKentico,
+  SiWordpress,
+  SiWoocommerce,
+  SiYoast,
+  SiQuickbooks,
+  SiGoogleads,
+  SiSymfony,
+  SiAxios,
+  SiApplepay,
+  SiAmazonec2,
+  SiAddthis,
+  SiPantheon,
+  SiElementor,
+  SiAngularjs,
+  SiAmazons3,
+  SiJson,
+  SiHubspot,
+  SiFramer,
 } from "react-icons/si";
 
 import {
   FaAws,
-  FaHardHat,
   FaNode,
+  FaSalesforce,
 } from "react-icons/fa";
-
-import { IoIosNotificationsOutline } from "react-icons/io";
 
 import { IoLogoFirebase } from "react-icons/io5";
 
 import { FaVuejs } from "react-icons/fa6";
 
-import { DiCss3, DiMsqlServer } from "react-icons/di";
+import { DiCss3 } from "react-icons/di";
 
 import { TbBrandNextjs } from "react-icons/tb";
 
@@ -114,22 +148,10 @@ export const navLinks = [
     id: "education",
     title: "Education",
   },
-  // {
-  //   id: "achievements",
-  //   title: "Achievements",
-  // },
   {
     id: "projects",
     title: "Projects",
   },
-  // {
-  //   id: "openSource",
-  //   title: "Open Source",
-  // },
-  // {
-  //   id: "extraCurricular",
-  //   title: "Extra Curricular",
-  // },
   {
     id: "contactMe",
     title: "Contact Me",
@@ -163,75 +185,24 @@ export const achievements = [
   {
     id: "a-1",
     icon: ethglobal,
-    event: "ETHIndia'22 | World's Largest Ethereum Hackathon",
+    event: "World's Largest Ethereum Hackathon",
     position: "Winner",
     content1: "Top 12 winners among 20k+ registrations",
     content2: "One of Polygon's Best Public Goods",
     content3: "Best Module on Biconomy SDK",
-    article: "https://www.thehindu.com/news/cities/Mangalore/nitk-iiit-delhi-team-makes-it-to-top-12-winners-in-ethindia-22/article66238923.ece",
-    project: "https://devfolio.co/projects/chargeswap-3527",
-    youtube: "https://youtu.be/9rieTya8Yds?t=3908",
+    article: "",
+    project: "",
+    youtube: "",
   },
   {
     id: "a-2",
-    icon: polkadot,
-    event: "Polkadot Hackathon: Europe Edition",
-    position: "2nd Runner Up in the ink! Smart Contract Category",
-    content1: "Built GreenTrust offering a novel solution for obtaining certification in organic farming.",
-    content2: "",
-    content3: "",
-    github: "https://github.com/pranav2305/GreenTrust",
-  },
-  {
-    id: "a-3",
-    icon: lightspeed,
-    event: "Warpspeed by Lightspeed",
-    position: "1st Runner Up",
-    content1: "1st Runner Up Overall by Lightspeed among 107 hackers",
-    content2: "Top 3 projects using Replit",
-    content3: "1st Runner Up by Amazon Web Services (AWS)",
-    article: "https://shorturl.at/fhjsT",
-  },
-  {
-    id: "a-4",
-    icon: dennisivy,
-    event: "September Hackathon by Dennis Ivy",
-    position: "Winner",
-    content1: "Rated the best portfolio website among 450+ participants across the globe.",
-    content2: "",
-    content3: "",
-    youtube: "https://www.youtube.com/watch?v=X2473En3h_o&t=5278s",
-    project: "https://danielzajac.netlify.app/",
-  },
-  {
-    id: "a-5",
     icon: manipal,
     event: "Manipal Hackathon'22",
     position: "Consolation Prize",
-    content1: "Top 10 among 500+ teams across India",
+    content1: "Top 10 among 500+ teams",
     content2: "Developed a cross-platform mobile application to address the problem of social cohesion.",
     content3: "",
-    article: "https://shorturl.at/exEIQ",
-  },
-  {
-    id: "a-6",
-    icon: icon,
-    event: "ICON Hyperbuild Hackathon",
-    position: "Honorable Mention",
-    content1: "Honorable Mention among 655 participants across the globe in a 3 month-long online hackathon.",
-    content2: "",
-    content3: "",
-    project: "https://devpost.com/software/green-trust-xj2w6g",
-  },
-  {
-    id: "a-7",
-    icon: ethforall,
-    event: "ETHForAll 2023",
-    position: "Top 3 Superfluid Projects",
-    content1: "Bounty winners among 430 projects in ETHGlobal's largest online hackathon.",
-    content2: "",
-    content3: "",
-    project: "https://devfolio.co/projects/green-trust-ed14",
+    article: "",
   },
 ];
 
@@ -554,269 +525,357 @@ export const experiences = [
 export const projects = [
   {
     id: "project-1",
-    title: "Comicify.ai",
-    github: "https://github.com/ayush4345/Comicify.ai",
-    link: "https://comicify-ai.vercel.app/",
-    image: comicify_ai,
+    title: "DAVID’S BRIDAL",
+    active: true,
+    github: "",
+    link: "https://www.davidsbridal.com/",
+    image: davidsbridal,
     content:
-      "Convert any academic/news/boring text into cool comic strips using GPT-3.5 and Stable Diffusion!",
+      "A new eCommerce solution for one of the largest wedding dress retailers in the world.",
     stack: [
       {
         id: "icon-1",
-        icon: SiReact,
-        name: "React"
+        icon: SiMagento,
+        name: "Magento 2"
       },
       {
         id: "icon-2",
-        icon: SiTailwindcss,
-        name: "TailwindCSS"
-      },
-      {
-        id: "icon-3",
-        icon: SiOpenai,
-        name: "OpenAI"
-      },
-      {
-        id: "icon-4",
-        icon: SiGooglecloud,
-        name: "Google Cloud Platform"
-      },
-      {
-        id: "icon-5",
-        icon: SiFlask,
-        name: "Flask"
-      },
-    ],
-  },
-  {
-    id: "project-2",
-    title: "GreenTrust",
-    github: "https://github.com/mittal-parth/GreenTrust",
-    link: "https://green-trust-fantom.netlify.app/",
-    image: greentrust,
-    content:
-      "Winning project at 3 hackathons, GreenTrust offers a novel solution for obtaining certification in organic farming by organizing credible and decentralized Participatory Guarantee Systems (PGSs).",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiReact,
-        name: "React"
-      },
-      {
-        id: "icon-2",
-        icon: SiTailwindcss,
-        name: "TailwindCSS"
-      },
-      {
-        id: "icon-3",
         icon: SiNextdotjs,
         name: "Next.js"
       },
       {
-        id: "icon-4",
-        icon: SiIpfs,
-        name: "IPFS"
-      },
-      {
-        id: "icon-5",
-        icon: SiSolidity,
-        name: "Solidity"
-      },
-      {
-        id: "icon-6",
-        icon: IoIosNotificationsOutline,
-        name: "Push Protocol"
-      },
-    ],
-  },
-  {
-    id: "project-3",
-    title: "ChargeSwap",
-    github: "https://github.com/CommanderAstern/ChargeSwap",
-    link: "https://devfolio.co/projects/chargeswap-3527",
-    image: chargeswap,
-    content:
-      "A Blockchain-based EV-Battery swapping solution - winning project at ETHIndia'22, the world's largest Ethereum Hackathon",
-    stack: [
-      {
-        id: "icon-1",
+        id: "icon-3",
         icon: SiReact,
         name: "React"
       },
       {
-        id: "icon-3",
-        icon: SiWeb3Dotjs,
-        name: "Web3.js"
-      },
-      {
         id: "icon-4",
-        icon: SiSolidity,
-        name: "Solidity"
+        icon: SiPhp,
+        name: "PHP"
       },
       {
         id: "icon-5",
-        icon: FaHardHat,
-        name: "HardHat"
+        icon: SiTypescript,
+        name: "TypeScript"
       },
       {
         id: "icon-6",
-        icon: SiIpfs,
-        name: "IPFS"
+        icon: SiGraphql,
+        name: "GraphQL"
       },
       {
         id: "icon-7",
-        icon: SiArduino,
-        name: "Arduino"
+        icon: SiMysql,
+        name: "MySQL"
       },
       {
         id: "icon-8",
-        icon: IoIosNotificationsOutline,
-        name: "Push Protocol"
-      },
-    ],
-  },
-  {
-    id: "project-4",
-    title: "Samsotech Table Management System",
-    github: "",
-    link: "https://www.linkedin.com/posts/mittal-parth_technologysolutions-softwaredevelopment-technology-activity-6994915645066809344-WnMY?utm_source=share&utm_medium=member_desktop",
-    image: placeicon,
-    content:
-      "Restaurant, Place, Table and realtime Reservation Management with Multi-Tenant Architecture, RBAC, SMS and Email integration for Samsotech International",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiDotnet,
-        name: "Dot Net Core MVC 6"
-      },
-      {
-        id: "icon-2",
-        icon: SiBootstrap,
-        name: "Bootstrap"
-      },
-      {
-        id: "icon-3",
-        icon: DiMsqlServer,
-        name: "MS Sql Server"
-      },
-      {
-        id: "icon-4",
-        icon: SiJquery,
-        name: "jQuery"
-      },
-      {
-        id: "icon-5",
-        icon: SiTwilio,
-        name: "Twillio"
-      },
-    ],
-  },
-  {
-    id: "project-5",
-    title: "Non-Teaching Recruitment Portal, NITK",
-    github: "",
-    link: "http://recruitment.nitk.ac.in/",
-    image: recruitment,
-    content:
-      "The official recruitment portal for non-teaching staff with an admin panel, email notifications and payment integration.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiRubyonrails,
-        name: "Ruby on Rails"
-      },
-      {
-        id: "icon-2",
-        icon: SiTailwindcss,
-        name: "TailwindCSS"
-      },
-      {
-        id: "icon-3",
-        icon: SiJquery,
-        name: "jQuery"
-      },
-    ],
-  },
-  {
-    id: "project-6",
-    title: "Career Development Centre, NITK Website",
-    github: "",
-    link: "http://cdc.nitk.ac.in/",
-    image: cdc,
-    content:
-      "The official website of CDC, NITK with a custom built CMS.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiRubyonrails,
-        name: "Ruby on Rails"
-      },
-      {
-        id: "icon-2",
-        icon: SiBootstrap,
-        name: "Bootstrap"
-      },
-      {
-        id: "icon-3",
-        icon: SiJavascript,
-        name: "JavaScript"
-      },
-    ],
-  },
-  {
-    id: "project-7",
-    title: "Huntly",
-    github: "",
-    link: "https://devfolio.co/projects/huntly-b5a9",
-    image: huntly,
-    content:
-      "A cross-platform mobile application that brings people closer to the physical environment and forms meaningful connections by organising real-world Treasure Hunts for free and winning rewards. The app uses machine learning to match users and form teams of like-minded people.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiDjango,
-        name: "Django Rest Framework"
-      },
-      {
-        id: "icon-2",
-        icon: SiFlutter,
-        name: "Flutter"
-      },
-      {
-        id: "icon-3",
-        icon: SiReplit,
-        name: "Replit"
-      },
-      {
-        id: "icon-4",
-        icon: SiFlask,
-        name: "Flask"
-      },
-      {
-        id: "icon-5",
-        icon: SiFigma,
-        name: "Figma"
-      },
-      {
-        id: "icon-6",
         icon: SiGooglemaps,
         name: "Google Maps API"
       },
     ],
   },
   {
-    id: "project-8",
-    title: "Cluboard",
-    github: "https://github.com/mittal-parth/Cluboard",
-    link: "",
-    image: cluboard,
+    id: "project-2",
+    title: "HealthPiper",
+    active: true,
+    github: "",
+    link: "https://healthpiper.com/",
+    image: healthpiper,
     content:
-      "A full-stack web application to facilitate sharing resources in college clubs with email notifications, requests and ticketing system, and analytical dashboards.",
+      "A pioneering digital mental health platform that offers remote psychiatric services to patients.",
     stack: [
       {
         id: "icon-1",
-        icon: SiDjango,
-        name: "Django"
+        icon: SiLaravel,
+        name: "Laravel"
+      },
+      {
+        id: "icon-2",
+        icon: SiReact,
+        name: "React"
+      },
+      {
+        id: "icon-3",
+        icon: SiAzuredevops,
+        name: "Azure DevOps"
+      },
+      {
+        id: "icon-4",
+        icon: SiPhp,
+        name: "PHP"
+      },
+      {
+        id: "icon-5",
+        icon: SiJavascript,
+        name: "JavaScript"
+      },
+      {
+        id: "icon-6",
+        icon: SiMysql,
+        name: "MySQL"
+      },
+      {
+        id: "icon-7",
+        icon: SiDynamics365,
+        name: "Dynamics 365"
+      },
+      {
+        id: "icon-8",
+        icon: SiJquery,
+        name: "jQuery"
+      },
+    ],
+  },
+  {
+    id: "project-3",
+    title: "Skin Actives Scientific",
+    active: true,
+    github: "",
+    link: "https://skinactives.com/",
+    image: skinactives,
+    content: "The ultimate destination for personalized skincare with ready-made and DIY solutions.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiLaravel,
+        name: "Laravel"
+      },
+      {
+        id: "icon-2",
+        icon: SiVuedotjs,
+        name: "Vue.js"
+      },
+      {
+        id: "icon-3",
+        icon: SiPhp,
+        name: "PHP"
+      },
+      {
+        id: "icon-4",
+        icon: SiMailchimp,
+        name: "MailChimp"
+      },
+      {
+        id: "icon-5",
+        icon: SiUikit,
+        name: "UIKit"
+      },
+      {
+        id: "icon-6",
+        icon: SiGoogleanalytics,
+        name: "Google Analytics"
+      },
+      {
+        id: "icon-7",
+        icon: SiBigcommerce,
+        name: "BigCommerce"
+      },
+    ],
+  },
+  {
+    id: "project-4",
+    title: "Sports Thread",
+    active: true,
+    github: "",
+    link: "https://sportsthread.com/",
+    image: sportsthread,
+    content: "The leading social networking and SaaS platform connecting the youth sports community.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiLaravel,
+        name: "Laravel"
+      },
+      {
+        id: "icon-2",
+        icon: SiVuedotjs,
+        name: "Vue.js"
+      },
+      {
+        id: "icon-3",
+        icon: SiPhp,
+        name: "PHP"
+      },
+      {
+        id: "icon-4",
+        icon: SiJquery,
+        name: "jQuery"
+      },
+      {
+        id: "icon-5",
+        icon: SiBootstrap,
+        name: "Bootstrap"
+      },
+      {
+        id: "icon-6",
+        icon: SiGooglemaps,
+        name: "Google Maps"
+      },
+      {
+        id: "icon-7",
+        icon: SiMysql,
+        name: "MySQL"
+      },
+      {
+        id: "icon-8",
+        icon: SiNginx,
+        name: "Nginx"
+      },
+    ],
+  },
+  {
+    id: "project-5",
+    title: "AddOn Network",
+    active: true,
+    github: "",
+    link: "https://www.addonnetworks.com/",
+    image: addonnetworks,
+    content: "The world's largest independent provider of optical transceivers and high-speed cabling solutions.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiPhp,
+        name: "PHP"
+      },
+      {
+        id: "icon-2",
+        icon: SiCraftcms,
+        name: "Craft CMS"
+      },
+      {
+        id: "icon-3",
+        icon: SiCraftcms,
+        name: "Craft CMS"
+      },
+      {
+        id: "icon-4",
+        icon: SiJquery,
+        name: "jQuery",
+      },
+      {
+        id: "icon-5",
+        icon: SiMysql,
+        name: "MySQL",
+      },
+      {
+        id: "icon-6",
+        icon: FaSalesforce,
+        name: "Salesforce",
+      },
+      {
+        id: "icon-7",
+        icon: SiSalesforce,
+        name: "Salesforce Service Cloud"
+      },
+      {
+        id: "icon-8",
+        icon: SiNginx,
+        name: "Nginx"
+      },
+      {
+        id: "icon-9",
+        icon: SiMysql,
+        name: "MySQL"
+      },
+    ],
+  },
+  {
+    id: "project-6",
+    title: "MHA of Frederick County",
+    active: true,
+    github: "",
+    link: "https://fcmha.org/",
+    image: mha,
+    content: "A non-profit organization supporting the whole community through mental health education and advocacy.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiPhp,
+        name: "PHP"
+      },
+      {
+        id: "icon-2",
+        icon: SiJquery,
+        name: "jQuery"
+      },
+      {
+        id: "icon-3",
+        icon: SiBootstrap,
+        name: "Bootstrap"
+      },
+      {
+        id: "icon-4",
+        icon: SiMailchimp,
+        name: "MailChimp"
+      },
+      {
+        id: "icon-5",
+        icon: SiApache,
+        name: "Apache HTTP Server"
+      },
+      {
+        id: "icon-6",
+        icon: SiMysql,
+        name: "MySQL"
+      },
+    ],
+  },
+  {
+    id: "project-7",
+    title: "Keep A Breast",
+    active: true,
+    github: "",
+    link: "https://www.keep-a-breast.org/",
+    image: keepabreast,
+    content: "A global organization dedicated to providing breast health education and support to young people.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiLaravel,
+        name: "Laravel"
+      },
+      {
+        id: "icon-2",
+        icon: SiPhp,
+        name: "PHP"
+      },
+      {
+        id: "icon-3",
+        icon: SiMysql,
+        name: "MySQL"
+      },
+      {
+        id: "icon-4",
+        icon: SiAmazonaws,
+        name: "AWS"
+      },
+      {
+        id: "icon-5",
+        icon: SiAwslambda,
+        name: "AWS Lambda"
+      },
+      {
+        id: "icon-6",
+        icon: SiFirebase,
+        name: "Firebase"
+      },
+    ],
+  },
+  {
+    id: "project-8",
+    title: "Kennedy Wilson",
+    active: true,
+    github: "",
+    link: "https://www.kennedywilson.com/",
+    image: kennedywilson,
+    content:
+      "A global real estate investment company specializing in owning, operating, and investing in real estate both independently and through an investment management platform.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiDrupal,
+        name: "Drupal 9"
       },
       {
         id: "icon-2",
@@ -840,19 +899,337 @@ export const projects = [
       },
       {
         id: "icon-6",
-        icon: SiChartdotjs,
-        name: "Chart.js"
+        icon: SiMariadb,
+        name: "MariaDB"
+      },
+      {
+        id: "icon-7",
+        icon: SiNginx,
+        name: "Nginx"
       },
     ],
   },
   {
     id: "project-9",
-    title: "Cash Flow Minimiser",
-    github: "https://github.com/mittal-parth/Cash-Flow-Minmiser",
-    link: "https://minimise-cash-flow.netlify.app/",
-    image: cash_flow,
+    title: "Planetizen Courses",
+    active: true,
+    github: "",
+    link: "https://courses.planetizen.com/",
+    image: planetizen,
+    content: "An online platform offering professional development and education for urban planning and development.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiDrupal,
+        name: "Drupal 9"
+      },
+      {
+        id: "icon-2",
+        icon: SiJquery,
+        name: "jQuery"
+      },
+      {
+        id: "icon-3",
+        icon: SiPreact,
+        name: "Preact"
+      },
+      {
+        id: "icon-4",
+        icon: SiBootstrap,
+        name: "Bootstrap"
+      },
+      {
+        id: "icon-5",
+        icon: SiMixpanel,
+        name: "Mixpanel"
+      },
+      {
+        id: "icon-6",
+        icon: SiVimeo,
+        name: "Vimeo"
+      },
+      {
+        id: "icon-7",
+        icon: SiGoogleoptimize,
+        name: "Google Optimize"
+      },
+    ],
+  },
+  {
+    id: "project-10",
+    title: "YMCA of the North",
+    active: true,
+    github: "",
+    link: "https://www.ymcanorth.org/",
+    image: ymca,
     content:
-      "A React application to help users visualise and minimise cash flow among multiple transactions.",
+      "A community-focused organization providing a range of programs and services to promote healthy living, youth development, and social responsibility.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiDrupal,
+        name: "Drupal 9"
+      },
+      {
+        id: "icon-2",
+        icon: SiJquery,
+        name: "jQuery"
+      },
+      {
+        id: "icon-3",
+        icon: SiBootstrap,
+        name: "Bootstrap"
+      },
+      {
+        id: "icon-4",
+        icon: SiApache,
+        name: "Apache HTTP Server"
+      },
+      {
+        id: "icon-5",
+        icon: SiGoogleanalytics,
+        name: "Google Analytics"
+      },
+      {
+        id: "icon-6",
+        icon: SiVimeo,
+        name: "Vimeo"
+      },
+      {
+        id: "icon-7",
+        icon: SiCloudflare,
+        name: "Cloudflare"
+      },
+    ],
+  },
+  {
+    id: "project-11",
+    title: "Gray and Sons",
+    active: true,
+    github: "",
+    link: "https://www.grayandsons.com/",
+    image: graysonsjewelers,
+    content:
+      "A premier watch and jewelry store offering certified pre-owned luxury watches.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiMagento,
+        name: "Magento"
+      },
+      {
+        id: "icon-2",
+        icon: SiPhp,
+        name: "PHP"
+      },
+      {
+        id: "icon-3",
+        icon: SiJquery,
+        name: "jQuery"
+      },
+      {
+        id: "icon-4",
+        icon: SiBackbonedotjs,
+        name: "Backbone.js"
+      },
+      {
+        id: "icon-5",
+        icon: SiMysql,
+        name: "MySQL"
+      },
+      {
+        id: "icon-6",
+        icon: SiLivechat,
+        name: "LiveChat"
+      },
+      {
+        id: "icon-7",
+        icon: SiAdroll,
+        name: "AdRoll"
+      },
+    ],
+  },
+  {
+    id: "project-12",
+    title: "Green Plaque",
+    active: true,
+    github: "",
+    link: "https://www.greenplaque.com/",
+    image: greenplaque,
+    content: "The exclusive provider of certification display plaques for LEED Certified buildings.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiMagento,
+        name: "Magento"
+      },
+      {
+        id: "icon-2",
+        icon: SiPhp,
+        name: "PHP"
+      },
+      {
+        id: "icon-3",
+        icon: SiJquery,
+        name: "jQuery"
+      },
+      {
+        id: "icon-4",
+        icon: SiMysql,
+        name: "MySQL"
+      },
+      {
+        id: "icon-5",
+        icon: SiApache,
+        name: "Apache HTTP Server"
+      },
+    ],
+  },
+  {
+    id: "project-13",
+    title: "Council for Exceptional Children (CEC)",
+    active: true,
+    github: "",
+    link: "https://exceptionalchildren.org/",
+    image: cec,
+    content:
+      "The largest professional association dedicated to advancing the success of children with exceptionalities.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiDrupal,
+        name: "Drupal 9"
+      },
+      {
+        id: "icon-2",
+        icon: SiVuedotjs,
+        name: "Vue.js"
+      },
+      {
+        id: "icon-3",
+        icon: SiJquery,
+        name: "jQuery"
+      },
+      {
+        id: "icon-4",
+        icon: SiPwa,
+        name: "PWA"
+      },
+      {
+        id: "icon-5",
+        icon: SiWebpack,
+        name: "Webpack"
+      },
+      {
+        id: "icon-6",
+        icon: SiAdroll,
+        name: "AdRoll"
+      },
+      {
+        id: "icon-7",
+        icon: SiGoogleanalytics,
+        name: "Google Analytics"
+      },
+    ],
+  },
+  {
+    id: "project-14",
+    title: "Dairy Farmers of America (DFA)",
+    active: true,
+    github: "",
+    link: "https://www.dfamilk.com/",
+    image: dairyfarmers,
+    content:
+      "A leading dairy company that manufactures and markets renowned, high-quality dairy brands both nationally and internationally.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiVuedotjs,
+        name: "Vue.js"
+      },
+      {
+        id: "icon-2",
+        icon: SiKentico,
+        name: "Kentico CMS"
+      },
+      {
+        id: "icon-3",
+        icon: SiJquery,
+        name: "jQuery"
+      },
+      {
+        id: "icon-4",
+        icon: SiJavascript,
+        name: "JavaScript"
+      },
+    ],
+  },
+  {
+    id: "project-15",
+    title: "The Grass Outlet",
+    active: true,
+    github: "",
+    link: "https://thegrassoutlet.com/",
+    image: grassoutlet,
+    content:
+      "A trusted provider of high-quality grass shipments, delivering professional service to customers.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiWordpress,
+        name: "WordPress"
+      },
+      {
+        id: "icon-2",
+        icon: SiWoocommerce,
+        name: "WooCommerce"
+      },
+      {
+        id: "icon-3",
+        icon: SiYoast,
+        name: "Yoast SEO"
+      },
+      {
+        id: "icon-4",
+        icon: SiPhp,
+        name: "PHP"
+      },
+      {
+        id: "icon-5",
+        icon: SiMysql,
+        name: "MySQL"
+      },
+      {
+        id: "icon-6",
+        icon: SiJquery,
+        name: "jQuery"
+      },
+      {
+        id: "icon-7",
+        icon: SiBootstrap,
+        name: "Bootstrap"
+      },
+      {
+        id: "icon-8",
+        icon: SiQuickbooks,
+        name: "QuickBooks"
+      },
+      {
+        id: "icon-9",
+        icon: SiJavascript,
+        name: "JavaScript"
+      },
+    ],
+  },
+  {
+    id: "project-16",
+    title: "Fencing Direct",
+    active: true,
+    github: "",
+    link: "https://www.fencingdirect.com/",
+    image: fencingdirect,
+    content:
+      "A disruptive force in the fencing industry, partnering with Orases to bring high-quality fence products to a national online audience, challenging traditional big box stores and local shops.",
     stack: [
       {
         id: "icon-1",
@@ -861,23 +1238,375 @@ export const projects = [
       },
       {
         id: "icon-2",
-        icon: AiFillHtml5,
-        name: "HTML"
+        icon: SiTailwindcss,
+        name: "Tailwind CSS"
       },
       {
         id: "icon-3",
-        icon: DiCss3,
-        name: "CSS"
-      }
+        icon: SiGoogleads,
+        name: "Google Ads"
+      },
+      {
+        id: "icon-4",
+        icon: SiGoogleanalytics,
+        name: "Google Analytics"
+      },
     ],
   },
   {
-    id: "project-10",
+    id: "project-17",
+    title: "Happy Bottoms",
+    active: true,
+    github: "",
+    link: "https://happybottoms.org/",
+    image: happybottoms,
+    content:
+      "A Kansas City-based non-profit diaper bank dedicated to supporting individuals and families in need by providing essential diaper supplies.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiSymfony,
+        name: "Symfony"
+      },
+      {
+        id: "icon-2",
+        icon: SiPhp,
+        name: "PHP"
+      },
+      {
+        id: "icon-3",
+        icon: SiMysql,
+        name: "MySQL"
+      },
+      {
+        id: "icon-4",
+        icon: SiJquery,
+        name: "jQuery"
+      },
+      {
+        id: "icon-5",
+        icon: SiJavascript,
+        name: "JavaScript"
+      },
+      {
+        id: "icon-6",
+        icon: SiGoogleanalytics,
+        name: "Google Analytics"
+      },
+    ],
+  },
+  {
+    id: "project-18",
+    title: "Loadstar",
+    active: false,
+    github: "",
+    link: "https://loadstarusa.com/",
+    image: loadstar,
+    content:
+      "A provider of product handling services across industries such as refineries, chemical plants, barge lines, and terminals.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiWordpress,
+        name: "WordPress"
+      },
+      {
+        id: "icon-2",
+        icon: SiPhp,
+        name: "PHP"
+      },
+      {
+        id: "icon-3",
+        icon: SiYoast,
+        name: "Yoast SEO"
+      },
+      {
+        id: "icon-4",
+        icon: SiMysql,
+        name: "MySQL"
+      },
+      {
+        id: "icon-5",
+        icon: SiJquery,
+        name: "jQuery"
+      },
+      {
+        id: "icon-6",
+        icon: SiApache,
+        name: "Apache HTTP Server"
+      },
+    ],
+  },
+  {
+    id: "project-19",
+    title: "Hurricane Shutters Wholesale",
+    active: true,
+    github: "",
+    link: "https://www.hurricaneshutterswholesale.com/",
+    image: hurricaneshutters,
+    content:
+      "A leading provider of high-quality hurricane shutters, offering reliable protection for homes and businesses.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiVuedotjs,
+        name: "Vue.js"
+      },
+      {
+        id: "icon-2",
+        icon: SiJavascript,
+        name: "JavaScript"
+      },
+      {
+        id: "icon-3",
+        icon: SiMailchimp,
+        name: "Mailchimp"
+      },
+      {
+        id: "icon-4",
+        icon: SiAxios,
+        name: "Axios"
+      },
+      {
+        id: "icon-5",
+        icon: SiApplepay,
+        name: "Apple Pay"
+      },
+      {
+        id: "icon-6",
+        icon: SiJquery,
+        name: "jQuery"
+      },
+      {
+        id: "icon-7",
+        icon: SiBigcommerce,
+        name: "BigCommerce"
+      },
+    ],
+  },
+  {
+    id: "project-20",
+    title: "The Broad",
+    active: true,
+    github: "",
+    link: "https://www.thebroad.org/",
+    image: thebroad,
+    content:
+      "A contemporary art museum in downtown Los Angeles, founded by philanthropists Eli and Edythe Broad, showcasing a diverse collection of modern art.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiDrupal,
+        name: "Drupal 9"
+      },
+      {
+        id: "icon-2",
+        icon: SiJquery,
+        name: "jQuery"
+      },
+      {
+        id: "icon-3",
+        icon: SiBootstrap,
+        name: "Bootstrap"
+      },
+      {
+        id: "icon-4",
+        icon: SiMariadb,
+        name: "MariaDB"
+      },
+      {
+        id: "icon-5",
+        icon: SiNginx,
+        name: "Nginx"
+      },
+    ],
+  },
+  {
+    id: "project-21",
+    title: "LACMA",
+    active: true,
+    github: "",
+    link: "https://www.lacma.org/",
+    image: lacma,
+    content:
+      "The largest art museum in the western United States, housing over 130,000 objects that span the history of art from antiquity to the present, representing global cultures.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiDrupal,
+        name: "Drupal 9"
+      },
+      {
+        id: "icon-2",
+        icon: SiJquery,
+        name: "jQuery"
+      },
+      {
+        id: "icon-3",
+        icon: SiWebpack,
+        name: "Webpack"
+      },
+      {
+        id: "icon-4",
+        icon: SiApache,
+        name: "Apache HTTP Server"
+      },
+      {
+        id: "icon-5",
+        icon: SiAmazonec2,
+        name: "Amazon EC2"
+      },
+    ],
+  },
+  {
+    id: "project-22",
+    title: "Martin County",
+    active: true,
+    github: "",
+    link: "https://www.martin.fl.us/",
+    image: martincounty,
+    content:
+      "A vibrant and diverse community in Florida, offering a wide range of services and resources to residents and visitors.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiDrupal,
+        name: "Drupal 9"
+      },
+      {
+        id: "icon-2",
+        icon: SiMariadb,
+        name: "MariaDB"
+      },
+      {
+        id: "icon-3",
+        icon: SiJquery,
+        name: "jQuery"
+      },
+      {
+        id: "icon-4",
+        icon: SiBootstrap,
+        name: "Bootstrap"
+      },
+      {
+        id: "icon-5",
+        icon: SiNginx,
+        name: "Nginx"
+      },
+      {
+        id: "icon-6",
+        icon: SiGoogleanalytics,
+        name: "Google Analytics"
+      },
+    ],
+  },
+  {
+    id: "project-23",
+    title: "Gilcrease Museum",
+    active: true,
+    github: "",
+    link: "https://collections.gilcrease.org/",
+    image: gilcreasemuseum,
+    content:
+      "Home to the world’s largest and most comprehensive collection of art and artifacts of the American West.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiDrupal,
+        name: "Drupal 7"
+      },
+      {
+        id: "icon-2",
+        icon: SiJquery,
+        name: "jQuery"
+      },
+      {
+        id: "icon-3",
+        icon: SiBootstrap,
+        name: "Bootstrap"
+      },
+      {
+        id: "icon-4",
+        icon: SiMysql,
+        name: "MySQL"
+      },
+      {
+        id: "icon-5",
+        icon: SiMariadb,
+        name: "MariaDB"
+      },
+      {
+        id: "icon-6",
+        icon: SiAddthis,
+        name: "AddThis"
+      },
+      {
+        id: "icon-7",
+        icon: SiPantheon,
+        name: "Pantheon"
+      },
+      {
+        id: "icon-8",
+        icon: SiNginx,
+        name: "Nginx"
+      },
+    ],
+  },
+  {
+    id: "project-24",
+    title: "BizEquity",
+    active: true,
+    github: "",
+    link: "https://www.bizequity.com/",
+    image: bizequityweb,
+    content:
+      "An online platform that helps business owners, advisors, and financial professionals determine the value of a business through comprehensive valuation tools.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiWordpress,
+        name: "WordPress"
+      },
+      {
+        id: "icon-2",
+        icon: SiPhp,
+        name: "PHP"
+      },
+      {
+        id: "icon-3",
+        icon: SiElementor,
+        name: "Elementor"
+      },
+      {
+        id: "icon-4",
+        icon: SiAngularjs,
+        name: "AngularJS"
+      },
+      {
+        id: "icon-5",
+        icon: SiAmazons3,
+        name: "AWS S3"
+      },
+      {
+        id: "icon-6",
+        icon: SiJson,
+        name: "JSON"
+      },
+      {
+        id: "icon-7",
+        icon: SiHubspot,
+        name: "HubSpot"
+      },
+    ],
+  },
+  {
+    id: "project-25",
     title: "Portfolio",
+    active: true,
     github: "https://github.com/danzajac/portfolio",
     link: "https://danielzajac.netlify.app/",
     image: portfolio,
-    content: "Personal portfolio website with React and Tailwind CSS.",
+    content: "Personal portfolio website built with React and Tailwind CSS.",
     stack: [
       {
         id: "icon-1",
@@ -894,6 +1623,16 @@ export const projects = [
         icon: AiFillHtml5,
         name: "HTML"
       },
+      {
+        id: "icon-4",
+        icon: SiVite,
+        name: "Vite"
+      },
+      {
+        id: "icon-5",
+        icon: SiFramer,
+        name: "Framer"
+      },
     ],
   },
 ];
@@ -905,7 +1644,7 @@ export const blogPosts = [
     title: "Blog Post 01 - Title",
     link: "#",
     date: new Date().toLocaleDateString(), // Can be edited to any string format
-    image: "https://via.placeholder.com/600/92c952",
+    image: "",
     tags: [
       {
         id: "tag-1",
@@ -926,7 +1665,7 @@ export const blogPosts = [
     title: "Blog Post 02 - Title",
     link: "#",
     date: new Date().toLocaleDateString(),
-    image: "https://via.placeholder.com/600/d32776",
+    image: "",
     tags: [
       {
         id: "tag-1",
@@ -947,7 +1686,7 @@ export const blogPosts = [
     title: "Blog Post 03 - Title",
     link: "#",
     date: new Date().toLocaleDateString(),
-    image: "https://via.placeholder.com/600/771796",
+    image: "",
     tags: [
       {
         id: "tag-1",
@@ -988,23 +1727,6 @@ export const stats = [
 export const extraCurricular = [
   {
     id: 1,
-    organisation: "Devfolio",
-    title: "UniDAO Lead",
-    duration: "December 2021 - Present",
-    content: [
-      {
-        text: "Selected among 5 students across the country to lead the initiative and grow the culture of Blockchain and Ethereum, powered by Devfolio.",
-        link: "https://www.linkedin.com/feed/update/urn:li:activity:7097977924686942209/",
-      },
-      {
-        text: "Led a cohort of 37 selected students over 6 weeks to learn and build in the Ethereum ecosystem.",
-        link: "https://www.linkedin.com/feed/update/urn:li:activity:7095310520282480641/",
-      },
-    ],
-    logo: devfolio,
-  },
-  {
-    id: 2,
     organisation: "Google Developer Student Club, NITK",
     title: "Co-Chair",
     duration: "December 2021 - Present",
@@ -1015,44 +1737,10 @@ export const extraCurricular = [
       },
       {
         text: "Co-designed and developed the official website of Incident, NITK with 15K+ visitors",
-        link: "https://incident.nitk.ac.in/",
+        link: "",
       },
     ],
     logo: gdsc,
-  },
-  {
-    id: 3,
-    organisation: "Genesis, NITK",
-    title: "Competitions Head",
-    duration: "Sep 2021 - Present",
-    content: [
-      {
-        text: "Qualified for the nationals of Indian Hip Hop Dance Championship",
-        link: "",
-      },
-      {
-        text: "Won 7 inter-college solo dance competitions",
-        link: "",
-      },
-    ],
-    logo: genesis,
-  },
-  {
-    id: 5,
-    organisation: "E-Cell, NITK",
-    title: "Executive Member",
-    duration: "Sep 2021 - Apr 2022",
-    content: [
-      {
-        text: "Organised the season 3 of the E-Cell NITK Podcast",
-        link: "https://www.youtube.com/watch?v=uA-Yrk6bVDc",
-      },
-      {
-        text: "Member of the Sponsorship and E-Talks team for E-Summit'22",
-        link: "",
-      },
-    ],
-    logo: ecell,
   },
 ];
 
@@ -1072,6 +1760,16 @@ export const socialMedia = [
     id: "social-media-3",
     icon: AiFillMail,
     link: "mailto:danzajac10@gmail.com",
+  },
+  {
+    id: "social-media-4",
+    icon: AiOutlineTwitter,
+    link: "",
+  },
+  {
+    id: "social-media-5",
+    icon: AiFillInstagram,
+    link: "",
   },
 ];
 

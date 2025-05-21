@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useMemo } from "react";
 import { projects } from "../constants";
 import { AiFillGithub } from "react-icons/ai";
 import { BsLink45Deg } from "react-icons/bs";
@@ -75,6 +75,8 @@ const Project = (props) => {
 };
 
 const Projects = () => {
+  const projectsToDisplay = useMemo(() => projects.filter(project => project.active), [projects]);
+
   return (
     <section id="projects">
       <h1 className="flex-1 font-poppins font-semibold ss:text-[55px] text-[45px] text-white ss:leading-[80px] leading-[80px]">
@@ -83,7 +85,7 @@ const Projects = () => {
 
       <div className="container px-2 py-10 mx-auto mb-8">
         <div className="grid grid-cols-1 gap-8 mt-8 md:mt-16 md:grid-cols-2">
-          {projects.map((project, index) => (
+          {projectsToDisplay.map((project, index) => (
             <Project key={project.id} index={index} {...project} />
           ))}
         </div>
