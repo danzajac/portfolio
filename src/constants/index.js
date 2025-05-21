@@ -55,7 +55,6 @@ import {
   SiPython,
   SiCsharp,
   SiTypescript,
-  SiRubyonrails,
   SiJquery,
   SiVisualstudiocode,
   SiPostman,
@@ -63,19 +62,9 @@ import {
   SiMysql,
   SiSolidity,
   SiLaravel,
-  SiChartdotjs,
   SiVite,
-  SiArduino,
-  SiWeb3Dotjs,
-  SiIpfs,
   SiDotnet,
-  SiTwilio,
-  SiFlutter,
-  SiReplit,
-  SiFlask,
-  SiFigma,
   SiGooglemaps,
-  SiOpenai,
   SiGooglecloud,
   SiNextdotjs,
   SiMicrosoftazure,
@@ -86,22 +75,62 @@ import {
   SiRedux,
   SiMongodb,
   SiPostgresql,
-  SiLinux
+  SiLinux,
+  SiAzuredevops,
+  SiDynamics365,
+  SiVuedotjs,
+  SiMailchimp,
+  SiUikit,
+  SiGoogleanalytics,
+  SiBigcommerce,
+  SiNginx,
+  SiCraftcms,
+  SiSalesforce,
+  SiApache,
+  SiAmazonaws,
+  SiAwslambda,
+  SiFirebase,
+  SiMariadb,
+  SiPreact,
+  SiMixpanel,
+  SiVimeo,
+  SiGoogleoptimize,
+  SiCloudflare,
+  SiBackbonedotjs,
+  SiLivechat,
+  SiAdroll,
+  SiPwa,
+  SiWebpack,
+  SiKentico,
+  SiWordpress,
+  SiWoocommerce,
+  SiYoast,
+  SiQuickbooks,
+  SiGoogleads,
+  SiSymfony,
+  SiAxios,
+  SiApplepay,
+  SiAmazonec2,
+  SiAddthis,
+  SiPantheon,
+  SiElementor,
+  SiAngularjs,
+  SiAmazons3,
+  SiJson,
+  SiHubspot,
+  SiFramer
 } from "react-icons/si";
 
 import {
   FaAws,
-  FaHardHat,
   FaNode,
 } from "react-icons/fa";
-
-import { IoIosNotificationsOutline } from "react-icons/io";
 
 import { IoLogoFirebase } from "react-icons/io5";
 
 import { FaVuejs } from "react-icons/fa6";
 
-import { DiCss3, DiMsqlServer } from "react-icons/di";
+import { DiCss3 } from "react-icons/di";
 
 import { TbBrandNextjs } from "react-icons/tb";
 
@@ -119,22 +148,10 @@ export const navLinks = [
     id: "education",
     title: "Education",
   },
-  // {
-  //   id: "achievements",
-  //   title: "Achievements",
-  // },
   {
     id: "projects",
     title: "Projects",
   },
-  // {
-  //   id: "openSource",
-  //   title: "Open Source",
-  // },
-  // {
-  //   id: "extraCurricular",
-  //   title: "Extra Curricular",
-  // },
   {
     id: "contactMe",
     title: "Contact Me",
@@ -518,38 +535,43 @@ export const projects = [
     stack: [
       {
         id: "icon-1",
+        icon: SiMagento,
+        name: "Magento 2"
+      },
+      {
+        id: "icon-2",
+        icon: SiNextdotjs,
+        name: "Next.js"
+      },
+      {
+        id: "icon-3",
         icon: SiReact,
         name: "React"
       },
       {
-        id: "icon-3",
-        icon: SiWeb3Dotjs,
-        name: "Web3.js"
-      },
-      {
         id: "icon-4",
-        icon: SiSolidity,
-        name: "Solidity"
+        icon: SiPhp,
+        name: "PHP"
       },
       {
         id: "icon-5",
-        icon: FaHardHat,
-        name: "HardHat"
+        icon: SiTypescript,
+        name: "TypeScript"
       },
       {
         id: "icon-6",
-        icon: SiIpfs,
-        name: "IPFS"
+        icon: SiGraphql,
+        name: "GraphQL"
       },
       {
         id: "icon-7",
-        icon: SiArduino,
-        name: "Arduino"
+        icon: SiMysql,
+        name: "MySQL"
       },
       {
         id: "icon-8",
-        icon: IoIosNotificationsOutline,
-        name: "Push Protocol"
+        icon: SiGooglemaps,
+        name: "Google Maps API"
       },
     ],
   },
@@ -565,28 +587,43 @@ export const projects = [
     stack: [
       {
         id: "icon-1",
+        icon: SiLaravel,
+        name: "Laravel"
+      },
+      {
+        id: "icon-2",
         icon: SiReact,
         name: "React"
       },
       {
-        id: "icon-2",
-        icon: SiTailwindcss,
-        name: "TailwindCSS"
-      },
-      {
         id: "icon-3",
-        icon: SiOpenai,
-        name: "OpenAI"
+        icon: SiAzuredevops,
+        name: "Azure DevOps"
       },
       {
         id: "icon-4",
-        icon: SiGooglecloud,
-        name: "Google Cloud Platform"
+        icon: SiPhp,
+        name: "PHP"
       },
       {
         id: "icon-5",
-        icon: SiFlask,
-        name: "Flask"
+        icon: SiJavascript,
+        name: "JavaScript"
+      },
+      {
+        id: "icon-6",
+        icon: SiMysql,
+        name: "MySQL"
+      },
+      {
+        id: "icon-7",
+        icon: SiDynamics365,
+        name: "Dynamics 365"
+      },
+      {
+        id: "icon-8",
+        icon: SiJquery,
+        name: "jQuery"
       },
     ],
   },
@@ -601,33 +638,38 @@ export const projects = [
     stack: [
       {
         id: "icon-1",
-        icon: SiReact,
-        name: "React"
+        icon: SiLaravel,
+        name: "Laravel"
       },
       {
         id: "icon-2",
-        icon: SiTailwindcss,
-        name: "TailwindCSS"
+        icon: SiVuedotjs,
+        name: "Vue.js"
       },
       {
         id: "icon-3",
-        icon: SiNextdotjs,
-        name: "Next.js"
+        icon: SiPhp,
+        name: "PHP"
       },
       {
         id: "icon-4",
-        icon: SiIpfs,
-        name: "IPFS"
+        icon: SiMailchimp,
+        name: "MailChimp"
       },
       {
         id: "icon-5",
-        icon: SiSolidity,
-        name: "Solidity"
+        icon: SiUikit,
+        name: "UIKit"
       },
       {
         id: "icon-6",
-        icon: IoIosNotificationsOutline,
-        name: "Push Protocol"
+        icon: SiGoogleanalytics,
+        name: "Google Analytics"
+      },
+      {
+        id: "icon-7",
+        icon: SiBigcommerce,
+        name: "BigCommerce"
       },
     ],
   },
@@ -642,18 +684,18 @@ export const projects = [
     stack: [
       {
         id: "icon-1",
-        icon: SiDotnet,
-        name: "Dot Net Core MVC 6"
+        icon: SiLaravel,
+        name: "Laravel"
       },
       {
         id: "icon-2",
-        icon: SiBootstrap,
-        name: "Bootstrap"
+        icon: SiVuedotjs,
+        name: "Vue.js"
       },
       {
         id: "icon-3",
-        icon: DiMsqlServer,
-        name: "MS Sql Server"
+        icon: SiPhp,
+        name: "PHP"
       },
       {
         id: "icon-4",
@@ -662,8 +704,23 @@ export const projects = [
       },
       {
         id: "icon-5",
-        icon: SiTwilio,
-        name: "Twillio"
+        icon: SiBootstrap,
+        name: "Bootstrap"
+      },
+      {
+        id: "icon-6",
+        icon: SiGooglemaps,
+        name: "Google Maps"
+      },
+      {
+        id: "icon-7",
+        icon: SiMysql,
+        name: "MySQL"
+      },
+      {
+        id: "icon-8",
+        icon: SiNginx,
+        name: "Nginx"
       },
     ],
   },
@@ -678,18 +735,33 @@ export const projects = [
     stack: [
       {
         id: "icon-1",
-        icon: SiRubyonrails,
-        name: "Ruby on Rails"
+        icon: SiPhp,
+        name: "PHP"
       },
       {
         id: "icon-2",
-        icon: SiTailwindcss,
-        name: "TailwindCSS"
+        icon: SiCraftcms,
+        name: "Craft CMS"
       },
       {
         id: "icon-3",
         icon: SiJquery,
         name: "jQuery"
+      },
+      {
+        id: "icon-4",
+        icon: SiSalesforce,
+        name: "Salesforce Service Cloud"
+      },
+      {
+        id: "icon-5",
+        icon: SiNginx,
+        name: "Nginx"
+      },
+      {
+        id: "icon-6",
+        icon: SiMysql,
+        name: "MySQL"
       },
     ],
   },
@@ -704,18 +776,33 @@ export const projects = [
     stack: [
       {
         id: "icon-1",
-        icon: SiRubyonrails,
-        name: "Ruby on Rails"
+        icon: SiPhp,
+        name: "PHP"
       },
       {
         id: "icon-2",
+        icon: SiJquery,
+        name: "jQuery"
+      },
+      {
+        id: "icon-3",
         icon: SiBootstrap,
         name: "Bootstrap"
       },
       {
-        id: "icon-3",
-        icon: SiJavascript,
-        name: "JavaScript"
+        id: "icon-4",
+        icon: SiMailchimp,
+        name: "MailChimp"
+      },
+      {
+        id: "icon-5",
+        icon: SiApache,
+        name: "Apache HTTP Server"
+      },
+      {
+        id: "icon-6",
+        icon: SiMysql,
+        name: "MySQL"
       },
     ],
   },
@@ -730,33 +817,33 @@ export const projects = [
     stack: [
       {
         id: "icon-1",
-        icon: SiDjango,
-        name: "Django Rest Framework"
+        icon: SiLaravel,
+        name: "Laravel"
       },
       {
         id: "icon-2",
-        icon: SiFlutter,
-        name: "Flutter"
+        icon: SiPhp,
+        name: "PHP"
       },
       {
         id: "icon-3",
-        icon: SiReplit,
-        name: "Replit"
+        icon: SiMysql,
+        name: "MySQL"
       },
       {
         id: "icon-4",
-        icon: SiFlask,
-        name: "Flask"
+        icon: SiAmazonaws,
+        name: "AWS"
       },
       {
         id: "icon-5",
-        icon: SiFigma,
-        name: "Figma"
+        icon: SiAwslambda,
+        name: "AWS Lambda"
       },
       {
         id: "icon-6",
-        icon: SiGooglemaps,
-        name: "Google Maps API"
+        icon: SiFirebase,
+        name: "Firebase"
       },
     ],
   },
@@ -772,8 +859,8 @@ export const projects = [
     stack: [
       {
         id: "icon-1",
-        icon: SiDjango,
-        name: "Django"
+        icon: SiDrupal,
+        name: "Drupal 9"
       },
       {
         id: "icon-2",
@@ -797,8 +884,13 @@ export const projects = [
       },
       {
         id: "icon-6",
-        icon: SiChartdotjs,
-        name: "Chart.js"
+        icon: SiMariadb,
+        name: "MariaDB"
+      },
+      {
+        id: "icon-7",
+        icon: SiNginx,
+        name: "Nginx"
       },
     ],
   },
@@ -813,19 +905,39 @@ export const projects = [
     stack: [
       {
         id: "icon-1",
-        icon: SiReact,
-        name: "React"
+        icon: SiDrupal,
+        name: "Drupal 9"
       },
       {
         id: "icon-2",
-        icon: AiFillHtml5,
-        name: "HTML"
+        icon: SiJquery,
+        name: "jQuery"
       },
       {
         id: "icon-3",
-        icon: DiCss3,
-        name: "CSS"
-      }
+        icon: SiPreact,
+        name: "Preact"
+      },
+      {
+        id: "icon-4",
+        icon: SiBootstrap,
+        name: "Bootstrap"
+      },
+      {
+        id: "icon-5",
+        icon: SiMixpanel,
+        name: "Mixpanel"
+      },
+      {
+        id: "icon-6",
+        icon: SiVimeo,
+        name: "Vimeo"
+      },
+      {
+        id: "icon-3",
+        icon: SiGoogleoptimize,
+        name: "Google Optimize"
+      },
     ],
   },
   {
@@ -840,19 +952,39 @@ export const projects = [
     stack: [
       {
         id: "icon-1",
-        icon: SiReact,
-        name: "React"
+        icon: SiDrupal,
+        name: "Drupal 9"
       },
       {
         id: "icon-2",
-        icon: AiFillHtml5,
-        name: "HTML"
+        icon: SiJquery,
+        name: "jQuery"
       },
       {
         id: "icon-3",
-        icon: DiCss3,
-        name: "CSS"
-      }
+        icon: SiBootstrap,
+        name: "Bootstrap"
+      },
+      {
+        id: "icon-4",
+        icon: SiApache,
+        name: "Apache HTTP Server"
+      },
+      {
+        id: "icon-5",
+        icon: SiGoogleanalytics,
+        name: "Google Analytics"
+      },
+      {
+        id: "icon-6",
+        icon: SiVimeo,
+        name: "Vimeo"
+      },
+      {
+        id: "icon-7",
+        icon: SiCloudflare,
+        name: "Cloudflare"
+      },
     ],
   },
   {
@@ -867,19 +999,39 @@ export const projects = [
     stack: [
       {
         id: "icon-1",
-        icon: SiReact,
-        name: "React"
+        icon: SiMagento,
+        name: "Magento"
       },
       {
         id: "icon-2",
-        icon: AiFillHtml5,
-        name: "HTML"
+        icon: SiPhp,
+        name: "PHP"
       },
       {
         id: "icon-3",
-        icon: DiCss3,
-        name: "CSS"
-      }
+        icon: SiJquery,
+        name: "jQuery"
+      },
+      {
+        id: "icon-4",
+        icon: SiBackbonedotjs,
+        name: "Backbone.js"
+      },
+      {
+        id: "icon-4",
+        icon: SiMysql,
+        name: "MySQL"
+      },
+      {
+        id: "icon-5",
+        icon: SiLivechat,
+        name: "LiveChat"
+      },
+      {
+        id: "icon-6",
+        icon: SiAdroll,
+        name: "AdRoll"
+      },
     ],
   },
   {
@@ -893,19 +1045,29 @@ export const projects = [
     stack: [
       {
         id: "icon-1",
-        icon: SiReact,
-        name: "React"
+        icon: SiMagento,
+        name: "Magento"
       },
       {
         id: "icon-2",
-        icon: AiFillHtml5,
-        name: "HTML"
+        icon: SiPhp,
+        name: "PHP"
       },
       {
         id: "icon-3",
-        icon: DiCss3,
-        name: "CSS"
-      }
+        icon: SiJquery,
+        name: "jQuery"
+      },
+      {
+        id: "icon-4",
+        icon: SiMysql,
+        name: "MySQL"
+      },
+      {
+        id: "icon-5",
+        icon: SiApache,
+        name: "Apache HTTP Server"
+      },
     ],
   },
   {
@@ -920,19 +1082,39 @@ export const projects = [
     stack: [
       {
         id: "icon-1",
-        icon: SiReact,
-        name: "React"
+        icon: SiDrupal,
+        name: "Drupal 9"
       },
       {
         id: "icon-2",
-        icon: AiFillHtml5,
-        name: "HTML"
+        icon: SiVuedotjs,
+        name: "Vue.js"
       },
       {
         id: "icon-3",
-        icon: DiCss3,
-        name: "CSS"
-      }
+        icon: SiJquery,
+        name: "jQuery"
+      },
+      {
+        id: "icon-4",
+        icon: SiPwa,
+        name: "PWA"
+      },
+      {
+        id: "icon-5",
+        icon: SiWebpack,
+        name: "Webpack"
+      },
+      {
+        id: "icon-6",
+        icon: SiAdroll,
+        name: "AdRoll"
+      },
+      {
+        id: "icon-7",
+        icon: SiGoogleanalytics,
+        name: "Google Analytics"
+      },
     ],
   },
   {
@@ -947,19 +1129,24 @@ export const projects = [
     stack: [
       {
         id: "icon-1",
-        icon: SiReact,
-        name: "React"
+        icon: SiVuedotjs,
+        name: "Vue.js"
       },
       {
         id: "icon-2",
-        icon: AiFillHtml5,
-        name: "HTML"
+        icon: SiKentico,
+        name: "Kentico CMS"
       },
       {
         id: "icon-3",
-        icon: DiCss3,
-        name: "CSS"
-      }
+        icon: SiJquery,
+        name: "jQuery"
+      },
+      {
+        id: "icon-4",
+        icon: SiJavascript,
+        name: "JavaScript"
+      },
     ],
   },
   {
@@ -974,19 +1161,49 @@ export const projects = [
     stack: [
       {
         id: "icon-1",
-        icon: SiReact,
-        name: "React"
+        icon: SiWordpress,
+        name: "WordPress"
       },
       {
         id: "icon-2",
-        icon: AiFillHtml5,
-        name: "HTML"
+        icon: SiWoocommerce,
+        name: "WooCommerce"
       },
       {
         id: "icon-3",
-        icon: DiCss3,
-        name: "CSS"
-      }
+        icon: SiYoast,
+        name: "Yoast SEO"
+      },
+      {
+        id: "icon-4",
+        icon: SiPhp,
+        name: "PHP"
+      },
+      {
+        id: "icon-5",
+        icon: SiMysql,
+        name: "MySQL"
+      },
+      {
+        id: "icon-6",
+        icon: SiJquery,
+        name: "jQuery"
+      },
+      {
+        id: "icon-7",
+        icon: SiBootstrap,
+        name: "Bootstrap"
+      },
+      {
+        id: "icon-8",
+        icon: SiQuickbooks,
+        name: "QuickBooks"
+      },
+      {
+        id: "icon-9",
+        icon: SiJavascript,
+        name: "JavaScript"
+      },
     ],
   },
   {
@@ -1006,14 +1223,19 @@ export const projects = [
       },
       {
         id: "icon-2",
-        icon: AiFillHtml5,
-        name: "HTML"
+        icon: SiTailwindcss,
+        name: "Tailwind CSS"
       },
       {
         id: "icon-3",
-        icon: DiCss3,
-        name: "CSS"
-      }
+        icon: SiGoogleads,
+        name: "Google Ads"
+      },
+      {
+        id: "icon-4",
+        icon: SiGoogleanalytics,
+        name: "Google Analytics"
+      },
     ],
   },
   {
@@ -1028,19 +1250,34 @@ export const projects = [
     stack: [
       {
         id: "icon-1",
-        icon: SiReact,
-        name: "React"
+        icon: SiSymfony,
+        name: "Symfony"
       },
       {
         id: "icon-2",
-        icon: AiFillHtml5,
-        name: "HTML"
+        icon: SiPhp,
+        name: "PHP"
       },
       {
         id: "icon-3",
-        icon: DiCss3,
-        name: "CSS"
-      }
+        icon: SiMysql,
+        name: "MySQL"
+      },
+      {
+        id: "icon-4",
+        icon: SiJquery,
+        name: "jQuery"
+      },
+      {
+        id: "icon-5",
+        icon: SiJavascript,
+        name: "JavaScript"
+      },
+      {
+        id: "icon-6",
+        icon: SiGoogleanalytics,
+        name: "Google Analytics"
+      },
     ],
   },
   {
@@ -1055,19 +1292,34 @@ export const projects = [
     stack: [
       {
         id: "icon-1",
-        icon: SiReact,
-        name: "React"
+        icon: SiWordpress,
+        name: "WordPress"
       },
       {
         id: "icon-2",
-        icon: AiFillHtml5,
-        name: "HTML"
+        icon: SiPhp,
+        name: "PHP"
       },
       {
         id: "icon-3",
-        icon: DiCss3,
-        name: "CSS"
-      }
+        icon: SiYoast,
+        name: "Yoast SEO"
+      },
+      {
+        id: "icon-4",
+        icon: SiMysql,
+        name: "MySQL"
+      },
+      {
+        id: "icon-5",
+        icon: SiJquery,
+        name: "jQuery"
+      },
+      {
+        id: "icon-6",
+        icon: SiApache,
+        name: "Apache HTTP Server"
+      },
     ],
   },
   {
@@ -1082,19 +1334,39 @@ export const projects = [
     stack: [
       {
         id: "icon-1",
-        icon: SiReact,
-        name: "React"
+        icon: SiVuedotjs,
+        name: "Vue.js"
       },
       {
         id: "icon-2",
-        icon: AiFillHtml5,
-        name: "HTML"
+        icon: SiJavascript,
+        name: "JavaScript"
       },
       {
         id: "icon-3",
-        icon: DiCss3,
-        name: "CSS"
-      }
+        icon: SiMailchimp,
+        name: "Mailchimp"
+      },
+      {
+        id: "icon-4",
+        icon: SiAxios,
+        name: "Axios"
+      },
+      {
+        id: "icon-5",
+        icon: SiApplepay,
+        name: "Apple Pay"
+      },
+      {
+        id: "icon-6",
+        icon: SiJquery,
+        name: "jQuery"
+      },
+      {
+        id: "icon-7",
+        icon: SiBigcommerce,
+        name: "BigCommerce"
+      },
     ],
   },
   {
@@ -1109,19 +1381,29 @@ export const projects = [
     stack: [
       {
         id: "icon-1",
-        icon: SiReact,
-        name: "React"
+        icon: SiDrupal,
+        name: "Drupal 9"
       },
       {
         id: "icon-2",
-        icon: AiFillHtml5,
-        name: "HTML"
+        icon: SiJquery,
+        name: "jQuery"
       },
       {
         id: "icon-3",
-        icon: DiCss3,
-        name: "CSS"
-      }
+        icon: SiBootstrap,
+        name: "Bootstrap"
+      },
+      {
+        id: "icon-4",
+        icon: SiMariadb,
+        name: "MariaDB"
+      },
+      {
+        id: "icon-5",
+        icon: SiNginx,
+        name: "Nginx"
+      },
     ],
   },
   {
@@ -1136,19 +1418,29 @@ export const projects = [
     stack: [
       {
         id: "icon-1",
-        icon: SiReact,
-        name: "React"
+        icon: SiDrupal,
+        name: "Drupal 9"
       },
       {
         id: "icon-2",
-        icon: AiFillHtml5,
-        name: "HTML"
+        icon: SiJquery,
+        name: "jQuery"
       },
       {
         id: "icon-3",
-        icon: DiCss3,
-        name: "CSS"
-      }
+        icon: SiWebpack,
+        name: "Webpack"
+      },
+      {
+        id: "icon-4",
+        icon: SiApache,
+        name: "Apache HTTP Server"
+      },
+      {
+        id: "icon-5",
+        icon: SiAmazonec2,
+        name: "Amazon EC2"
+      },
     ],
   },
   {
@@ -1163,19 +1455,34 @@ export const projects = [
     stack: [
       {
         id: "icon-1",
-        icon: SiReact,
-        name: "React"
+        icon: SiDrupal,
+        name: "Drupal 9"
       },
       {
         id: "icon-2",
-        icon: AiFillHtml5,
-        name: "HTML"
+        icon: SiMariadb,
+        name: "MariaDB"
       },
       {
         id: "icon-3",
-        icon: DiCss3,
-        name: "CSS"
-      }
+        icon: SiJquery,
+        name: "jQuery"
+      },
+      {
+        id: "icon-4",
+        icon: SiBootstrap,
+        name: "Bootstrap"
+      },
+      {
+        id: "icon-5",
+        icon: SiNginx,
+        name: "Nginx"
+      },
+      {
+        id: "icon-6",
+        icon: SiGoogleanalytics,
+        name: "Google Analytics"
+      },
     ],
   },
   {
@@ -1190,19 +1497,44 @@ export const projects = [
     stack: [
       {
         id: "icon-1",
-        icon: SiReact,
-        name: "React"
+        icon: SiDrupal,
+        name: "Drupal 7"
       },
       {
         id: "icon-2",
-        icon: AiFillHtml5,
-        name: "HTML"
+        icon: SiJquery,
+        name: "jQuery"
       },
       {
         id: "icon-3",
-        icon: DiCss3,
-        name: "CSS"
-      }
+        icon: SiBootstrap,
+        name: "Bootstrap"
+      },
+      {
+        id: "icon-4",
+        icon: SiMysql,
+        name: "MySQL"
+      },
+      {
+        id: "icon-5",
+        icon: SiMariadb,
+        name: "MariaDB"
+      },
+      {
+        id: "icon-6",
+        icon: SiAddthis,
+        name: "AddThis"
+      },
+      {
+        id: "icon-7",
+        icon: SiPantheon,
+        name: "Pantheon"
+      },
+      {
+        id: "icon-8",
+        icon: SiNginx,
+        name: "Nginx"
+      },
     ],
   },
   {
@@ -1217,19 +1549,39 @@ export const projects = [
     stack: [
       {
         id: "icon-1",
-        icon: SiReact,
-        name: "React"
+        icon: SiWordpress,
+        name: "WordPress"
       },
       {
         id: "icon-2",
-        icon: AiFillHtml5,
-        name: "HTML"
+        icon: SiPhp,
+        name: "PHP"
       },
       {
         id: "icon-3",
-        icon: DiCss3,
-        name: "CSS"
-      }
+        icon: SiElementor,
+        name: "Elementor"
+      },
+      {
+        id: "icon-4",
+        icon: SiAngularjs,
+        name: "AngularJS"
+      },
+      {
+        id: "icon-5",
+        icon: SiAmazons3,
+        name: "AWS S3"
+      },
+      {
+        id: "icon-6",
+        icon: SiJson,
+        name: "JSON"
+      },
+      {
+        id: "icon-7",
+        icon: SiHubspot,
+        name: "HubSpot"
+      },
     ],
   },
   {
@@ -1255,6 +1607,16 @@ export const projects = [
         id: "icon-3",
         icon: AiFillHtml5,
         name: "HTML"
+      },
+      {
+        id: "icon-4",
+        icon: SiVite,
+        name: "Vite"
+      },
+      {
+        id: "icon-5",
+        icon: SiFramer,
+        name: "Framer"
       },
     ],
   },
