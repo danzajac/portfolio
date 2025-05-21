@@ -45,7 +45,6 @@ import {
 } from "react-icons/ai";
 
 import {
-  SiDjango,
   SiJavascript,
   SiBootstrap,
   SiReact,
@@ -118,12 +117,13 @@ import {
   SiAmazons3,
   SiJson,
   SiHubspot,
-  SiFramer
+  SiFramer,
 } from "react-icons/si";
 
 import {
   FaAws,
   FaNode,
+  FaSalesforce,
 } from "react-icons/fa";
 
 import { IoLogoFirebase } from "react-icons/io5";
@@ -745,21 +745,36 @@ export const projects = [
       },
       {
         id: "icon-3",
-        icon: SiJquery,
-        name: "jQuery"
+        icon: SiCraftcms,
+        name: "Craft CMS"
       },
       {
         id: "icon-4",
+        icon: SiJquery,
+        name: "jQuery",
+      },
+      {
+        id: "icon-5",
+        icon: SiMysql,
+        name: "MySQL",
+      },
+      {
+        id: "icon-6",
+        icon: FaSalesforce,
+        name: "Salesforce",
+      },
+      {
+        id: "icon-7",
         icon: SiSalesforce,
         name: "Salesforce Service Cloud"
       },
       {
-        id: "icon-5",
+        id: "icon-8",
         icon: SiNginx,
         name: "Nginx"
       },
       {
-        id: "icon-6",
+        id: "icon-9",
         icon: SiMysql,
         name: "MySQL"
       },
@@ -934,7 +949,7 @@ export const projects = [
         name: "Vimeo"
       },
       {
-        id: "icon-3",
+        id: "icon-7",
         icon: SiGoogleoptimize,
         name: "Google Optimize"
       },
@@ -1018,17 +1033,17 @@ export const projects = [
         name: "Backbone.js"
       },
       {
-        id: "icon-4",
+        id: "icon-5",
         icon: SiMysql,
         name: "MySQL"
       },
       {
-        id: "icon-5",
+        id: "icon-6",
         icon: SiLivechat,
         name: "LiveChat"
       },
       {
-        id: "icon-6",
+        id: "icon-7",
         icon: SiAdroll,
         name: "AdRoll"
       },
